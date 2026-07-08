@@ -24,6 +24,8 @@ element {
 
 导入 Kumu 后无需任何调整即可看到效果。想调整对比度，改 `scale()` 的第二、三个参数即可（等价写法：`@settings { element-size: scale("influence", 20, 100); }`）。
 
+打分约定：`influence` 在图内使用 **4.0–9.9** 的大跨度（两个项目一致），`scale()` 按图内最小/最大值做线性映射，分数拉开差距头像大小才有区分度。新增条目时参照图内已有条目相对打分即可，不追求跨图可比。
+
 ## 数据同步方式调查结论（2026-07）
 
 来源：[Kumu 官方文档](https://docs.kumu.io/guides/import.md)。
