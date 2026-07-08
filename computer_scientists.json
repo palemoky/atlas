@@ -365,7 +365,8 @@
         "influence": 8.5,
         "element type": "Person",
         "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/2/2d/John_Carmack_2025.jpg/500px-John_Carmack_2025.jpg",
-        "description": "id Software 联合创始人,《[Doom](https://en.wikipedia.org/wiki/Doom_%281993_video_game%29)》《Quake》背后的图形编程大师,推动了实时 3D 与游戏引擎技术。"
+        "description": "id Software 联合创始人,《[Doom](https://en.wikipedia.org/wiki/Doom_%281993_video_game%29)》《Quake》背后的图形编程大师,推动了实时 3D 与游戏引擎技术。",
+        "born": "1970"
       }
     },
     {
@@ -465,7 +466,9 @@
         "influence": 8.7,
         "element type": "Person",
         "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/b/b2/John_Backus_2.jpg",
-        "description": "[Fortran](https://en.wikipedia.org/wiki/Fortran) 的领导者(首个高级编程语言之一),并提出描述语法的 [巴科斯范式 BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form),1977 年图灵奖得主。"
+        "description": "[Fortran](https://en.wikipedia.org/wiki/Fortran) 的领导者(首个高级编程语言之一),并提出描述语法的 [巴科斯范式 BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form),1977 年图灵奖得主。",
+        "born": "1924",
+        "died": "2007"
       }
     },
     {
@@ -475,7 +478,8 @@
         "influence": 8.7,
         "element type": "Person",
         "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/3/38/Barbara_Liskov_MIT_computer_scientist_2010.jpg/500px-Barbara_Liskov_MIT_computer_scientist_2010.jpg",
-        "description": "提出 [里氏替换原则](https://en.wikipedia.org/wiki/Liskov_substitution_principle) 与抽象数据类型,分布式与编程语言理论先驱,2008 年图灵奖得主。"
+        "description": "提出 [里氏替换原则](https://en.wikipedia.org/wiki/Liskov_substitution_principle) 与抽象数据类型,分布式与编程语言理论先驱,2008 年图灵奖得主。",
+        "born": "1939"
       }
     },
     {
@@ -1274,7 +1278,8 @@
         "tags": [
           "Git"
         ],
-        "website": "https://github.com/gitster"
+        "website": "https://github.com/gitster",
+        "born": "1965"
       }
     },
     {
@@ -4208,27 +4213,27 @@
     {
       "_id": "pers-MmbVBt5Y",
       "name": "Overview",
-      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: 4;\n  border-color: #9aa4b2;\n  font-size: 13;\n}\n\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; image-fit: contain; }\nelement[\"element type\"=\"Tag\"]     { border-color: #f4a261; }\n\nconnection { color: #b0b7c0; width: 1.5; arrow-size: 6; }\n"
+      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: scale(\"influence\", 1.5, 5);\n  border-color: #9aa4b2;\n  font-size: 13;\n}\n\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; image-fit: contain; }\n\nconnection { color: #b0b7c0; width: 1.5; arrow-size: 6; }\n"
     },
     {
       "_id": "pers-nRpQgwXJ",
       "name": "Focus",
-      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: 4;\n  border-color: #9aa4b2;\n  font-size: 13;\n}\n\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; image-fit: contain; }\nelement[\"element type\"=\"Tag\"]     { border-color: #f4a261; }\n\nconnection { color: #b0b7c0; width: 1.5; arrow-size: 6; }\n\n/* Focus: fade out elements with influence < 8.5 */\nelement { opacity: 0.12; }\nelement[influence>=8.5] { opacity: 1; }\nconnection { opacity: 0.25; }\n"
+      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: scale(\"influence\", 1.5, 5);\n  border-color: #9aa4b2;\n  font-size: 13;\n}\n\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; image-fit: contain; }\n\nconnection { color: #b0b7c0; width: 1.5; arrow-size: 6; }\n\n/* Focus: fade out elements with influence < 9.2 */\nelement { opacity: 0.12; }\nelement[influence>=9.2] { opacity: 1; }\nconnection { opacity: 0.25; }\n"
     },
     {
       "_id": "pers-43ANVj77",
       "name": "People Only",
-      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: 4;\n  border-color: #9aa4b2;\n  font-size: 13;\n}\n\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; image-fit: contain; }\nelement[\"element type\"=\"Tag\"]     { border-color: #f4a261; }\n\nconnection { color: #b0b7c0; width: 1.5; arrow-size: 6; }\n\n/* People Only: fade out project elements */\nelement[\"element type\"=\"Project\"] { opacity: 0.12; }\nelement[\"element type\"=\"Person\"]  { opacity: 1; }\n"
+      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: scale(\"influence\", 1.5, 5);\n  border-color: #9aa4b2;\n  font-size: 13;\n}\n\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; image-fit: contain; }\n\nconnection { color: #b0b7c0; width: 1.5; arrow-size: 6; }\n\n/* People Only: fade out project elements */\nelement[\"element type\"=\"Project\"] { opacity: 0.12; }\nelement[\"element type\"=\"Person\"]  { opacity: 1; }\n"
     },
     {
       "_id": "pers-TIMELINE",
       "name": "Timeline",
-      "style": "@settings {\n  template: stakeholder;\n  colorBy: \"born\";\n}\n\nelement {\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  border-width: 3;\n  image-fit: contain;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { image-fit: cover; }\nelement[\"element type\"=\"Project\"] { opacity: 0.12; }   /* Timeline: focus on people */\n\nconnection { color: #c7ccd4; width: 1.2; }\n"
+      "style": "@settings {\n  template: stakeholder;\n  colorBy: \"born\";\n}\n\nelement {\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  border-width: scale(\"influence\", 1.5, 5);\n  image-fit: contain;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { image-fit: cover; }\nelement[\"element type\"=\"Project\"] { opacity: 0.12; }   /* Timeline: focus on people */\n\nconnection { color: #c7ccd4; width: 1.2; }\n"
     },
     {
       "_id": "pers-p3kZZl4A",
       "name": "Lineage",
-      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: 3;\n  border-color: #9aa4b2;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; }\n\nconnection { color: #d2d7de; width: 1.2; arrow-size: 5; }\nconnection[\"connection type\"=\"evolution\"] { color: #e76f51; width: 3; arrow-size: 11; }\n"
+      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: scale(\"influence\", 1.5, 5);\n  border-color: #9aa4b2;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; }\n\nconnection { color: #d2d7de; width: 1.2; arrow-size: 5; }\nconnection[\"connection type\"=\"evolution\"] { color: #e76f51; width: 3; arrow-size: 11; }\n"
     }
   ]
 }

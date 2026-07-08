@@ -4,12 +4,12 @@
 
 ## 文件说明
 
-| 文件 | 说明 |
-| --- | --- |
-| `scientists.json` | 「Great Scientists」项目的 Kumu blueprint（元素、连接、地图、视图） |
-| `cs.json` | 「Computer Scientist」项目的 Kumu blueprint |
-| `blueprint_to_csv.py` | 把 blueprint JSON 转成可导入 Google Sheets 的 CSV |
-| `sheets/` | 脚本输出目录（`*_elements.csv` / `*_connections.csv`） |
+| 文件                       | 说明                                                                |
+| -------------------------- | ------------------------------------------------------------------- |
+| `scientists.json`          | 「Great Scientists」项目的 Kumu blueprint（元素、连接、地图、视图） |
+| `computer_scientists.json` | 「Computer Scientist」项目的 Kumu blueprint                         |
+| `blueprint_to_csv.py`      | 把 blueprint JSON 转成可导入 Google Sheets 的 CSV                   |
+| `sheets/`                  | 脚本输出目录（`*_elements.csv` / `*_connections.csv`）              |
 
 ## 头像随影响力缩放
 
@@ -17,7 +17,11 @@
 
 ```scss
 element {
-  size: scale("influence", 20, 100);  /* influence 最低 → 20px，最高 → 100px，线性插值 */
+  size: scale(
+    "influence",
+    20,
+    100
+  ); /* influence 最低 → 20px，最高 → 100px，线性插值 */
   min-size: 20;
 }
 ```
@@ -48,13 +52,13 @@ JSON (git) → blueprint_to_csv.py → Google Sheet (Elements/Connections 两个
 3. 不要在 Kumu 或 Sheet 里直接改数据，所有修改回到 JSON。
 
 全自动方案：把 CSV push 到 GitHub 后，在 Sheet 里用
-`=IMPORTDATA("https://raw.githubusercontent.com/<user>/<repo>/main/sheets/scientists_elements.csv")`
+`=IMPORTDATA("https://raw.githubusercontent.com/palemoky/atlas/main/sheets/scientists_elements.csv")`
 指向 raw 文件，push 即自动更新 Sheet，Kumu 刷新即同步。
 
 ## 脚本用法
 
 ```bash
-# 转换默认的两个文件（scientists.json、cs.json）
+# 转换默认的两个文件（scientists.json、computer_scientists.json）
 python3 blueprint_to_csv.py
 
 # 或指定文件

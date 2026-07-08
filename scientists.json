@@ -4843,17 +4843,17 @@
     {
       "_id": "pers-so06UKuK",
       "name": "总览",
-      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: 4;\n  border-color: #9aa4b2;\n  font-size: 13;\n}\n\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; image-fit: contain; }\nelement[\"element type\"=\"Tag\"]     { border-color: #f4a261; }\n\nconnection { color: #b0b7c0; width: 1.5; arrow-size: 6; }\n"
+      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: scale(\"influence\", 1.5, 5);\n  border-color: #9aa4b2;\n  font-size: 13;\n}\n\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; image-fit: contain; }\n\nconnection { color: #b0b7c0; width: 1.5; arrow-size: 6; }\n"
     },
     {
       "_id": "pers-TIMELINE",
       "name": "时间轴",
-      "style": "@settings {\n  template: stakeholder;\n  colorBy: \"born\";\n}\n\nelement {\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  border-width: 3;\n  image-fit: contain;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { image-fit: cover; }\nelement[\"element type\"=\"Project\"] { opacity: 0.12; }\n\nconnection { color: #c7ccd4; width: 1.2; }\n"
+      "style": "@settings {\n  template: stakeholder;\n  colorBy: \"born\";\n}\n\nelement {\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  border-width: scale(\"influence\", 1.5, 5);\n  image-fit: contain;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { image-fit: cover; }\nelement[\"element type\"=\"Project\"] { opacity: 0.12; }\n\nconnection { color: #c7ccd4; width: 1.2; }\n"
     },
     {
       "_id": "pers-MXR0upt4",
       "name": "谱系",
-      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: 3;\n  border-color: #9aa4b2;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; }\n\nconnection { color: #d2d7de; width: 1.2; arrow-size: 5; }\nconnection[\"connection type\"=\"evolution\"] { color: #e76f51; width: 3; arrow-size: 11; }\n"
+      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: scale(\"influence\", 1.5, 5);\n  border-color: #9aa4b2;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; }\n\nconnection { color: #d2d7de; width: 1.2; arrow-size: 5; }\nconnection[\"connection type\"=\"evolution\"] { color: #e76f51; width: 3; arrow-size: 11; }\n"
     }
   ]
 }
