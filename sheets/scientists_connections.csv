@@ -1,0 +1,113 @@
+From,To,Direction,Connection Type
+Isaac Newton,Classical mechanics,directed,
+Isaac Newton,Universal gravitation,directed,
+Isaac Newton,Calculus,directed,
+Isaac Newton,Optics,directed,
+Albert Einstein,Theory of relativity,directed,
+Albert Einstein,Photoelectric effect,directed,
+Albert Einstein,Mass-energy equivalence,directed,
+Albert Einstein,Quantum mechanics,directed,
+James Clerk Maxwell,Maxwell's equations,directed,
+James Clerk Maxwell,Electromagnetism,directed,
+James Clerk Maxwell,Statistical mechanics,directed,
+Charles Darwin,Evolution,directed,
+Charles Darwin,Natural selection,directed,
+Galileo Galilei,Heliocentrism,directed,
+Galileo Galilei,Telescope astronomy,directed,
+Galileo Galilei,Classical mechanics,directed,
+Nicolaus Copernicus,Heliocentrism,directed,
+Johannes Kepler,Laws of planetary motion,directed,
+Johannes Kepler,Heliocentrism,directed,
+Michael Faraday,Electromagnetism,directed,
+Michael Faraday,Electromagnetic induction,directed,
+Marie Curie,Radioactivity,directed,
+Niels Bohr,Quantum mechanics,directed,
+Niels Bohr,Bohr model,directed,
+Max Planck,Quantum mechanics,directed,
+Max Planck,Black-body radiation,directed,
+Werner Heisenberg,Quantum mechanics,directed,
+Werner Heisenberg,Uncertainty principle,directed,
+Erwin Schrödinger,Quantum mechanics,directed,
+Erwin Schrödinger,Schrödinger equation,directed,
+Paul Dirac,Quantum mechanics,directed,
+Paul Dirac,Antimatter,directed,
+Paul Dirac,Quantum electrodynamics,directed,
+Richard Feynman,Quantum electrodynamics,directed,
+Nikola Tesla,Alternating current,directed,
+Nikola Tesla,Electromagnetism,directed,
+Gregor Mendel,Genetics,directed,
+Louis Pasteur,Germ theory,directed,
+Louis Pasteur,Vaccination,directed,
+Dmitri Mendeleev,Periodic table,directed,
+Antoine Lavoisier,Conservation of mass,directed,
+Antoine Lavoisier,Modern chemistry,directed,
+Ludwig Boltzmann,Statistical mechanics,directed,
+Ludwig Boltzmann,Entropy,directed,
+Gottfried Wilhelm Leibniz,Calculus,directed,
+Euclid,Geometry,directed,
+Archimedes,Archimedes' principle,directed,
+Archimedes,Geometry,directed,
+Carl Friedrich Gauss,Number theory,directed,
+Carl Friedrich Gauss,Normal distribution,directed,
+Leonhard Euler,Graph theory,directed,
+Leonhard Euler,Calculus,directed,
+Bernhard Riemann,Riemann hypothesis,directed,
+Bernhard Riemann,Non-Euclidean geometry,directed,
+Pierre de Fermat,Number theory,directed,
+Pierre de Fermat,Probability theory,directed,
+Georg Cantor,Set theory,directed,
+David Hilbert,Hilbert space,directed,
+David Hilbert,Set theory,directed,
+Henri Poincaré,Topology,directed,
+Henri Poincaré,Chaos theory,directed,
+Srinivasa Ramanujan,Number theory,directed,
+Emmy Noether,Abstract algebra,directed,
+Emmy Noether,Noether's theorem,directed,
+Kurt Gödel,Incompleteness theorems,directed,
+Blaise Pascal,Probability theory,directed,
+Hippocrates,Hippocratic medicine,directed,
+Edward Jenner,Vaccination,directed,
+Robert Koch,Germ theory,directed,
+Robert Koch,Bacteriology,directed,
+Alexander Fleming,Penicillin,directed,
+Alexander Fleming,Antibiotics,directed,
+Joseph Lister,Antiseptic surgery,directed,
+Andreas Vesalius,Human anatomy,directed,
+William Harvey,Blood circulation,directed,
+Jonas Salk,Polio vaccine,directed,
+Jonas Salk,Vaccination,directed,
+Florence Nightingale,Modern nursing,directed,
+Florence Nightingale,Medical statistics,directed,
+Carl Linnaeus,Taxonomy,directed,
+Antonie van Leeuwenhoek,Microbiology,directed,
+James Watson,DNA structure,directed,
+Francis Crick,DNA structure,directed,
+Rosalind Franklin,DNA structure,directed,
+John Dalton,Atomic theory,directed,
+Robert Boyle,Boyle's law,directed,
+Robert Boyle,Modern chemistry,directed,
+Linus Pauling,Chemical bond,directed,
+Edwin Hubble,Expanding universe,directed,
+Tycho Brahe,Astronomical observation,directed,
+Tycho Brahe,Laws of planetary motion,directed,
+Heliocentrism,Laws of planetary motion,directed,evolution
+Laws of planetary motion,Universal gravitation,directed,evolution
+Calculus,Classical mechanics,directed,evolution
+Classical mechanics,Theory of relativity,directed,evolution
+Electromagnetism,Maxwell's equations,directed,evolution
+Maxwell's equations,Theory of relativity,directed,evolution
+Electromagnetic induction,Alternating current,directed,evolution
+Black-body radiation,Quantum mechanics,directed,evolution
+Quantum mechanics,Bohr model,directed,evolution
+Quantum mechanics,Uncertainty principle,directed,evolution
+Quantum mechanics,Schrödinger equation,directed,evolution
+Quantum mechanics,Quantum electrodynamics,directed,evolution
+Atomic theory,Periodic table,directed,evolution
+Atomic theory,Quantum mechanics,directed,evolution
+Geometry,Non-Euclidean geometry,directed,evolution
+Evolution,Genetics,directed,evolution
+Genetics,DNA structure,directed,evolution
+Microbiology,Germ theory,directed,evolution
+Germ theory,Bacteriology,directed,evolution
+Germ theory,Vaccination,directed,evolution
+Bacteriology,Antibiotics,directed,evolution

@@ -1,0 +1,4859 @@
+{
+  "version": 1,
+  "name": "Great Scientists",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-jQHoAtrd",
+  "defaultPerspective": "pers-so06UKuK",
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-L0dNCdg2",
+      "name": "Blog",
+      "format": "url",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-EsMddvOn",
+      "name": "Born",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-uDkh1233",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Tag",
+        "evolution"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-mKmQHkpG",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-RcJ6aQxF",
+      "name": "Died",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-QGSLh09a",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Person",
+        "Organization",
+        "Project"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-0TPv3jTa",
+      "name": "IMAGE",
+      "format": "image",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-0uaV2tsg",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-pel6Bj95",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-0LwYFAYI",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-F23qHhT8",
+      "name": "Influence",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-WIKI0001",
+      "name": "Wikipedia",
+      "format": "url",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-qdiVAHhV",
+      "attributes": {
+        "label": "Isaac Newton",
+        "description": "[艾萨克·牛顿](https://en.wikipedia.org/wiki/Isaac_Newton) —— 经典力学奠基人,提出运动三定律与[万有引力](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation),并与莱布尼茨各自独立创立[微积分](https://en.wikipedia.org/wiki/Calculus),著《自然哲学的数学原理》。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "tags": [
+          "物理学",
+          "数学"
+        ],
+        "influence": 9.9,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/500px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg",
+        "born": "1643",
+        "died": "1727"
+      }
+    },
+    {
+      "_id": "elem-eECXxGLg",
+      "attributes": {
+        "label": "Albert Einstein",
+        "description": "[阿尔伯特·爱因斯坦](https://en.wikipedia.org/wiki/Albert_Einstein) —— 提出[相对论](https://en.wikipedia.org/wiki/Theory_of_relativity),解释[光电效应](https://en.wikipedia.org/wiki/Photoelectric_effect)(获 1921 年诺奖),给出 E=mc²,深刻改变了人类的时空观。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 9.9,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/500px-Albert_Einstein_Head_cleaned.jpg",
+        "born": "1879",
+        "died": "1955"
+      }
+    },
+    {
+      "_id": "elem-CGo8NcUY",
+      "attributes": {
+        "label": "James Clerk Maxwell",
+        "description": "[詹姆斯·克拉克·麦克斯韦](https://en.wikipedia.org/wiki/James_Clerk_Maxwell) —— 用[麦克斯韦方程组](https://en.wikipedia.org/wiki/Maxwell%27s_equations)统一电、磁与光,奠定经典电磁学。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 9.7,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/b/b0/James-Clerk-Maxwell-1831-1879.jpg/500px-James-Clerk-Maxwell-1831-1879.jpg",
+        "born": "1831",
+        "died": "1879"
+      }
+    },
+    {
+      "_id": "elem-63QHtDP9",
+      "attributes": {
+        "label": "Charles Darwin",
+        "description": "[查尔斯·达尔文](https://en.wikipedia.org/wiki/Charles_Darwin) —— 以[自然选择](https://en.wikipedia.org/wiki/Natural_selection)阐释[进化论](https://en.wikipedia.org/wiki/Evolution),著《物种起源》,生物学的根基。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Charles_Darwin",
+        "tags": [
+          "生物学"
+        ],
+        "influence": 9.7,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/500px-Charles_Darwin_seated_crop.jpg",
+        "born": "1809",
+        "died": "1882"
+      }
+    },
+    {
+      "_id": "elem-bdE2zBRg",
+      "attributes": {
+        "label": "Galileo Galilei",
+        "description": "[伽利略·伽利雷](https://en.wikipedia.org/wiki/Galileo_Galilei) —— “近代科学之父”,用[望远镜](https://en.wikipedia.org/wiki/Galileo%27s_telescope)观测天体支持[日心说](https://en.wikipedia.org/wiki/Heliocentrism),奠定实验物理。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+        "tags": [
+          "物理学",
+          "天文学"
+        ],
+        "influence": 9.6,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-500px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg",
+        "born": "1564",
+        "died": "1642"
+      }
+    },
+    {
+      "_id": "elem-FT6Ce5fu",
+      "attributes": {
+        "label": "Nicolaus Copernicus",
+        "description": "[尼古拉·哥白尼](https://en.wikipedia.org/wiki/Nicolaus_Copernicus) —— 提出[日心说](https://en.wikipedia.org/wiki/Heliocentrism),引发天文学革命。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+        "tags": [
+          "天文学"
+        ],
+        "influence": 9.4,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/500px-Nikolaus_Kopernikus_MOT.jpg",
+        "born": "1473",
+        "died": "1543"
+      }
+    },
+    {
+      "_id": "elem-MjeirNOL",
+      "attributes": {
+        "label": "Johannes Kepler",
+        "description": "[约翰内斯·开普勒](https://en.wikipedia.org/wiki/Johannes_Kepler) —— 总结出[行星运动三定律](https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion),为牛顿引力理论铺路。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Johannes_Kepler",
+        "tags": [
+          "天文学"
+        ],
+        "influence": 9.2,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/7/74/JKepler.jpg/500px-JKepler.jpg",
+        "born": "1571",
+        "died": "1630"
+      }
+    },
+    {
+      "_id": "elem-JTuyMHsD",
+      "attributes": {
+        "label": "Michael Faraday",
+        "description": "[迈克尔·法拉第](https://en.wikipedia.org/wiki/Michael_Faraday) —— 发现[电磁感应](https://en.wikipedia.org/wiki/Electromagnetic_induction),奠定发电机与电动机原理。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Michael_Faraday",
+        "tags": [
+          "物理学",
+          "化学"
+        ],
+        "influence": 9.4,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Michael_Faraday_sitting_crop.jpg/500px-Michael_Faraday_sitting_crop.jpg",
+        "born": "1791",
+        "died": "1867"
+      }
+    },
+    {
+      "_id": "elem-GMBgYSh2",
+      "attributes": {
+        "label": "Marie Curie",
+        "description": "[玛丽·居里](https://en.wikipedia.org/wiki/Marie_Curie) —— [放射性](https://en.wikipedia.org/wiki/Radioactivity)研究先驱,发现钋与镭,史上首位两获诺贝尔奖者。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Marie_Curie",
+        "tags": [
+          "物理学",
+          "化学"
+        ],
+        "influence": 9.3,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/500px-Marie_Curie_c._1920s.jpg",
+        "born": "1867",
+        "died": "1934"
+      }
+    },
+    {
+      "_id": "elem-PP4XJU3n",
+      "attributes": {
+        "label": "Niels Bohr",
+        "description": "[尼尔斯·玻尔](https://en.wikipedia.org/wiki/Niels_Bohr) —— 提出原子的[玻尔模型](https://en.wikipedia.org/wiki/Bohr_model),[量子力学](https://en.wikipedia.org/wiki/Quantum_mechanics)奠基人之一。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Niels_Bohr",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 9.0,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Niels_Bohr.jpg/500px-Niels_Bohr.jpg",
+        "born": "1885",
+        "died": "1962"
+      }
+    },
+    {
+      "_id": "elem-BC4oAv0D",
+      "attributes": {
+        "label": "Max Planck",
+        "description": "[马克斯·普朗克](https://en.wikipedia.org/wiki/Max_Planck) —— 由[黑体辐射](https://en.wikipedia.org/wiki/Black-body_radiation)提出能量量子化,开启[量子力学](https://en.wikipedia.org/wiki/Quantum_mechanics)时代。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Max_Planck",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 9.2,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg/500px-Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg",
+        "born": "1858",
+        "died": "1947"
+      }
+    },
+    {
+      "_id": "elem-zAUguBuQ",
+      "attributes": {
+        "label": "Werner Heisenberg",
+        "description": "[维尔纳·海森堡](https://en.wikipedia.org/wiki/Werner_Heisenberg) —— 创立矩阵力学,提出[不确定性原理](https://en.wikipedia.org/wiki/Uncertainty_principle)。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 8.8,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Werner_Heisenberg_Portrait_%283x4_cropped%29.jpg/500px-Werner_Heisenberg_Portrait_%283x4_cropped%29.jpg",
+        "born": "1901",
+        "died": "1976"
+      }
+    },
+    {
+      "_id": "elem-qx9jR7Ee",
+      "attributes": {
+        "label": "Erwin Schrödinger",
+        "description": "[埃尔温·薛定谔](https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger) —— 提出[薛定谔方程](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation),波动力学奠基人,以“薛定谔的猫”闻名。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Erwin_Schrödinger",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 8.8,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/7/77/Erwin_Schr%C3%B6dinger_-_Narodowe_Archiwum_Cyfrowe_%281-E-939%29.jpg/500px-Erwin_Schr%C3%B6dinger_-_Narodowe_Archiwum_Cyfrowe_%281-E-939%29.jpg",
+        "born": "1887",
+        "died": "1961"
+      }
+    },
+    {
+      "_id": "elem-f1ffBgVV",
+      "attributes": {
+        "label": "Paul Dirac",
+        "description": "[保罗·狄拉克](https://en.wikipedia.org/wiki/Paul_Dirac) —— 提出[狄拉克方程](https://en.wikipedia.org/wiki/Dirac_equation),预言[反物质](https://en.wikipedia.org/wiki/Antimatter),量子电动力学先驱。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Paul_Dirac",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 8.7,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/5/50/Paul_Dirac%2C_1933.jpg/500px-Paul_Dirac%2C_1933.jpg",
+        "born": "1902",
+        "died": "1984"
+      }
+    },
+    {
+      "_id": "elem-xZiJdL9J",
+      "attributes": {
+        "label": "Richard Feynman",
+        "description": "[理查德·费曼](https://en.wikipedia.org/wiki/Richard_Feynman) —— [量子电动力学](https://en.wikipedia.org/wiki/Quantum_electrodynamics)奠基人之一,发明费曼图,著名科学传播者。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Richard_Feynman",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 8.9,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/500px-Richard_Feynman_Nobel.jpg",
+        "born": "1918",
+        "died": "1988"
+      }
+    },
+    {
+      "_id": "elem-JvQhAw3Q",
+      "attributes": {
+        "label": "Nikola Tesla",
+        "description": "[尼古拉·特斯拉](https://en.wikipedia.org/wiki/Nikola_Tesla) —— [交流电](https://en.wikipedia.org/wiki/Alternating_current)系统与感应电动机的发明者。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Nikola_Tesla",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 8.8,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/500px-Tesla_circa_1890.jpeg",
+        "born": "1856",
+        "died": "1943"
+      }
+    },
+    {
+      "_id": "elem-8WB36Ud9",
+      "attributes": {
+        "label": "Gregor Mendel",
+        "description": "[格雷戈尔·孟德尔](https://en.wikipedia.org/wiki/Gregor_Mendel) —— 通过豌豆实验发现遗传规律,[遗传学](https://en.wikipedia.org/wiki/Genetics)之父。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+        "tags": [
+          "生物学"
+        ],
+        "influence": 9.0,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Gregor_Mendel_2.jpg/500px-Gregor_Mendel_2.jpg",
+        "born": "1822",
+        "died": "1884"
+      }
+    },
+    {
+      "_id": "elem-sMtwgKGn",
+      "attributes": {
+        "label": "Louis Pasteur",
+        "description": "[路易·巴斯德](https://en.wikipedia.org/wiki/Louis_Pasteur) —— 确立[细菌致病学说](https://en.wikipedia.org/wiki/Germ_theory_of_disease),发明[巴氏消毒](https://en.wikipedia.org/wiki/Pasteurization)与多种疫苗。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+        "tags": [
+          "医学",
+          "化学"
+        ],
+        "influence": 9.2,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg/500px-Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg",
+        "born": "1822",
+        "died": "1895"
+      }
+    },
+    {
+      "_id": "elem-jQEo2gw2",
+      "attributes": {
+        "label": "Dmitri Mendeleev",
+        "description": "[德米特里·门捷列夫](https://en.wikipedia.org/wiki/Dmitri_Mendeleev) —— 编制[元素周期表](https://en.wikipedia.org/wiki/Periodic_table)并成功预言未知元素。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
+        "tags": [
+          "化学"
+        ],
+        "influence": 9.0,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/a/af/Dmitri_Mendeleev.jpg/500px-Dmitri_Mendeleev.jpg",
+        "born": "1834",
+        "died": "1907"
+      }
+    },
+    {
+      "_id": "elem-JxhWrKoZ",
+      "attributes": {
+        "label": "Antoine Lavoisier",
+        "description": "[安托万·拉瓦锡](https://en.wikipedia.org/wiki/Antoine_Lavoisier) —— “近代化学之父”,确立[质量守恒](https://en.wikipedia.org/wiki/Conservation_of_mass)并命名氧。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Antoine_Lavoisier",
+        "tags": [
+          "化学"
+        ],
+        "influence": 8.9,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/d/d8/David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%292.jpg/500px-David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%292.jpg",
+        "born": "1743",
+        "died": "1794"
+      }
+    },
+    {
+      "_id": "elem-B2JX0NNR",
+      "attributes": {
+        "label": "Ludwig Boltzmann",
+        "description": "[路德维希·玻尔兹曼](https://en.wikipedia.org/wiki/Ludwig_Boltzmann) —— [统计力学](https://en.wikipedia.org/wiki/Statistical_mechanics)奠基人,从微观角度阐释[熵](https://en.wikipedia.org/wiki/Entropy)。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ludwig_Boltzmann",
+        "tags": [
+          "物理学"
+        ],
+        "influence": 8.6,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Boltzmann2.jpg/500px-Boltzmann2.jpg",
+        "born": "1844",
+        "died": "1906"
+      }
+    },
+    {
+      "_id": "elem-PJbM7Q1S",
+      "attributes": {
+        "label": "Gottfried Wilhelm Leibniz",
+        "description": "[戈特弗里德·莱布尼茨](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) —— 与牛顿各自独立发明[微积分](https://en.wikipedia.org/wiki/Calculus)(现用记号源于他),并构想二进制。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+        "tags": [
+          "数学"
+        ],
+        "influence": 9.0,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/500px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg",
+        "born": "1646",
+        "died": "1716"
+      }
+    },
+    {
+      "_id": "elem-rblrSWt6",
+      "attributes": {
+        "label": "Euclid",
+        "description": "[欧几里得](https://en.wikipedia.org/wiki/Euclid) —— “几何之父”,著《[几何原本](https://en.wikipedia.org/wiki/Euclid%27s_Elements)》,确立公理化方法。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Euclid",
+        "tags": [
+          "数学"
+        ],
+        "influence": 9.3,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/7/73/Italian_-_Euclid_-_Google_Art_Project.jpg/500px-Italian_-_Euclid_-_Google_Art_Project.jpg"
+      }
+    },
+    {
+      "_id": "elem-vwal3jKQ",
+      "attributes": {
+        "label": "Archimedes",
+        "description": "[阿基米德](https://en.wikipedia.org/wiki/Archimedes) —— 古希腊数学物理大师,提出[浮力原理](https://en.wikipedia.org/wiki/Archimedes%27_principle)与杠杆、圆周率估算。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Archimedes",
+        "tags": [
+          "数学",
+          "物理学"
+        ],
+        "influence": 9.4,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domenico-Fetti_Archimedes_1620.jpg/500px-Domenico-Fetti_Archimedes_1620.jpg"
+      }
+    },
+    {
+      "_id": "elem-zejVObfV",
+      "attributes": {
+        "label": "Carl Friedrich Gauss",
+        "description": "[卡尔·弗里德里希·高斯](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss) —— “数学王子”,在[数论](https://en.wikipedia.org/wiki/Number_theory)、[正态分布](https://en.wikipedia.org/wiki/Normal_distribution)、几何与物理均有奠基性贡献。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss",
+        "tags": [
+          "数学"
+        ],
+        "influence": 9.4,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Carl_Friedrich_Gauss_1840_by_Jensen.jpg/500px-Carl_Friedrich_Gauss_1840_by_Jensen.jpg",
+        "born": "1777",
+        "died": "1855"
+      }
+    },
+    {
+      "_id": "elem-HnyADvkx",
+      "attributes": {
+        "label": "Leonhard Euler",
+        "description": "[莱昂哈德·欧拉](https://en.wikipedia.org/wiki/Leonhard_Euler) —— 史上最高产的数学家之一,开创[图论](https://en.wikipedia.org/wiki/Graph_theory),贡献遍及分析、数论与力学。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Leonhard_Euler",
+        "tags": [
+          "数学"
+        ],
+        "influence": 9.3,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Leonhard_Euler_-_Jakob_Emanuel_Handmann_%28Kunstmuseum_Basel%29.jpg/500px-Leonhard_Euler_-_Jakob_Emanuel_Handmann_%28Kunstmuseum_Basel%29.jpg",
+        "born": "1707",
+        "died": "1783"
+      }
+    },
+    {
+      "_id": "elem-tUuX8KMf",
+      "attributes": {
+        "label": "Bernhard Riemann",
+        "description": "[波恩哈德·黎曼](https://en.wikipedia.org/wiki/Bernhard_Riemann) —— 提出[黎曼猜想](https://en.wikipedia.org/wiki/Riemann_hypothesis)与[黎曼几何](https://en.wikipedia.org/wiki/Riemannian_geometry),后者成为广义相对论的数学基础。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bernhard_Riemann",
+        "tags": [
+          "数学"
+        ],
+        "influence": 8.7,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/8/82/Georg_Friedrich_Bernhard_Riemann.jpeg/500px-Georg_Friedrich_Bernhard_Riemann.jpeg",
+        "born": "1826",
+        "died": "1866"
+      }
+    },
+    {
+      "_id": "elem-4djkWNdR",
+      "attributes": {
+        "label": "Pierre de Fermat",
+        "description": "[皮埃尔·德·费马](https://en.wikipedia.org/wiki/Pierre_de_Fermat) —— [数论](https://en.wikipedia.org/wiki/Number_theory)先驱,提出费马大定理,与帕斯卡共创[概率论](https://en.wikipedia.org/wiki/Probability_theory)。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Pierre_de_Fermat",
+        "tags": [
+          "数学"
+        ],
+        "influence": 8.6,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/f/f3/Pierre_de_Fermat.jpg",
+        "born": "1607",
+        "died": "1665"
+      }
+    },
+    {
+      "_id": "elem-frCQBFMC",
+      "attributes": {
+        "label": "Georg Cantor",
+        "description": "[格奥尔格·康托尔](https://en.wikipedia.org/wiki/Georg_Cantor) —— 创立[集合论](https://en.wikipedia.org/wiki/Set_theory),提出无穷的不同“大小”。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Georg_Cantor",
+        "tags": [
+          "数学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Georg_Cantor_%28Portr%C3%A4t%29.jpg/500px-Georg_Cantor_%28Portr%C3%A4t%29.jpg",
+        "born": "1845",
+        "died": "1918"
+      }
+    },
+    {
+      "_id": "elem-ArnWGhwB",
+      "attributes": {
+        "label": "David Hilbert",
+        "description": "[大卫·希尔伯特](https://en.wikipedia.org/wiki/David_Hilbert) —— 提出 23 个著名问题引领 20 世纪数学,[希尔伯特空间](https://en.wikipedia.org/wiki/Hilbert_space)以其命名。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/David_Hilbert",
+        "tags": [
+          "数学"
+        ],
+        "influence": 8.7,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/7/79/Hilbert.jpg",
+        "born": "1862",
+        "died": "1943"
+      }
+    },
+    {
+      "_id": "elem-hsRRLFHQ",
+      "attributes": {
+        "label": "Henri Poincaré",
+        "description": "[亨利·庞加莱](https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9) —— [拓扑学](https://en.wikipedia.org/wiki/Topology)奠基人,[混沌理论](https://en.wikipedia.org/wiki/Chaos_theory)先驱,提出庞加莱猜想。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Henri_Poincaré",
+        "tags": [
+          "数学"
+        ],
+        "influence": 8.7,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/f/f4/PSM_V82_D416_Henri_Poincare.png/500px-PSM_V82_D416_Henri_Poincare.png",
+        "born": "1854",
+        "died": "1912"
+      }
+    },
+    {
+      "_id": "elem-tcozMdan",
+      "attributes": {
+        "label": "Srinivasa Ramanujan",
+        "description": "[斯里尼瓦瑟·拉马努金](https://en.wikipedia.org/wiki/Srinivasa_Ramanujan) —— 天才数学家,在[数论](https://en.wikipedia.org/wiki/Number_theory)与无穷级数上留下大量惊人公式。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan",
+        "tags": [
+          "数学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Srinivasa_Ramanujan-Add._MS_a94_version2_%28cropped%29.jpg/500px-Srinivasa_Ramanujan-Add._MS_a94_version2_%28cropped%29.jpg",
+        "born": "1887",
+        "died": "1920"
+      }
+    },
+    {
+      "_id": "elem-t8nXiWqs",
+      "attributes": {
+        "label": "Emmy Noether",
+        "description": "[埃米·诺特](https://en.wikipedia.org/wiki/Emmy_Noether) —— [抽象代数](https://en.wikipedia.org/wiki/Abstract_algebra)奠基人,[诺特定理](https://en.wikipedia.org/wiki/Noether%27s_theorem)揭示对称性与守恒律的深刻联系。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Emmy_Noether",
+        "tags": [
+          "数学",
+          "物理学"
+        ],
+        "influence": 8.6,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Emmy_Noether_%283x4_cropped%29.jpg/500px-Emmy_Noether_%283x4_cropped%29.jpg",
+        "born": "1882",
+        "died": "1935"
+      }
+    },
+    {
+      "_id": "elem-uhaFVBli",
+      "attributes": {
+        "label": "Kurt Gödel",
+        "description": "[库尔特·哥德尔](https://en.wikipedia.org/wiki/Kurt_G%C3%B6del) —— 提出[不完备定理](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems),震撼了数学基础与逻辑。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kurt_Gödel",
+        "tags": [
+          "数学"
+        ],
+        "influence": 8.7,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/4/42/Kurt_g%C3%B6del.jpg",
+        "born": "1906",
+        "died": "1978"
+      }
+    },
+    {
+      "_id": "elem-yIToGJ1Q",
+      "attributes": {
+        "label": "Blaise Pascal",
+        "description": "[布莱兹·帕斯卡](https://en.wikipedia.org/wiki/Blaise_Pascal) —— 与费马共创[概率论](https://en.wikipedia.org/wiki/Probability_theory),发明早期计算器,著名数学家与思想家。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Blaise_Pascal",
+        "tags": [
+          "数学"
+        ],
+        "influence": 8.4,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/9/98/Blaise_Pascal_Versailles.JPG/500px-Blaise_Pascal_Versailles.JPG",
+        "born": "1623",
+        "died": "1662"
+      }
+    },
+    {
+      "_id": "elem-Zwez3VcB",
+      "attributes": {
+        "label": "Hippocrates",
+        "description": "[希波克拉底](https://en.wikipedia.org/wiki/Hippocrates) —— “医学之父”,将医学与迷信分离,《[希波克拉底誓言](https://en.wikipedia.org/wiki/Hippocratic_Oath)》流传至今。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hippocrates",
+        "tags": [
+          "医学"
+        ],
+        "influence": 9.0,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/7/7c/Hippocrates.jpg"
+      }
+    },
+    {
+      "_id": "elem-bD6e3uKB",
+      "attributes": {
+        "label": "Edward Jenner",
+        "description": "[爱德华·詹纳](https://en.wikipedia.org/wiki/Edward_Jenner) —— 用牛痘开创[疫苗接种](https://en.wikipedia.org/wiki/Vaccination),“免疫学之父”。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Edward_Jenner",
+        "tags": [
+          "医学"
+        ],
+        "influence": 9.0,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/b/be/Edward_Jenner.jpg/500px-Edward_Jenner.jpg",
+        "born": "1749",
+        "died": "1823"
+      }
+    },
+    {
+      "_id": "elem-KzTOAshz",
+      "attributes": {
+        "label": "Robert Koch",
+        "description": "[罗伯特·科赫](https://en.wikipedia.org/wiki/Robert_Koch) —— [细菌学](https://en.wikipedia.org/wiki/Bacteriology)奠基人,提出科赫法则,确认结核、霍乱病原。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Robert_Koch",
+        "tags": [
+          "医学"
+        ],
+        "influence": 8.8,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/8/8d/RobertKoch_cropped.jpg/500px-RobertKoch_cropped.jpg",
+        "born": "1843",
+        "died": "1910"
+      }
+    },
+    {
+      "_id": "elem-b9ukZ8ND",
+      "attributes": {
+        "label": "Alexander Fleming",
+        "description": "[亚历山大·弗莱明](https://en.wikipedia.org/wiki/Alexander_Fleming) —— 发现[青霉素](https://en.wikipedia.org/wiki/Penicillin),开启[抗生素](https://en.wikipedia.org/wiki/Antibiotic)时代。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+        "tags": [
+          "医学"
+        ],
+        "influence": 9.0,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/f/f5/Alexander_Fleming_1945.jpg",
+        "born": "1881",
+        "died": "1955"
+      }
+    },
+    {
+      "_id": "elem-1S6xfB2g",
+      "attributes": {
+        "label": "Joseph Lister",
+        "description": "[约瑟夫·李斯特](https://en.wikipedia.org/wiki/Joseph_Lister) —— 倡导[无菌手术](https://en.wikipedia.org/wiki/Antiseptic),大幅降低术后感染死亡率。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Lister",
+        "tags": [
+          "医学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Joseph_Lister_1902.jpg/500px-Joseph_Lister_1902.jpg",
+        "born": "1827",
+        "died": "1912"
+      }
+    },
+    {
+      "_id": "elem-pBLzHfz3",
+      "attributes": {
+        "label": "Andreas Vesalius",
+        "description": "[安德烈亚斯·维萨里](https://en.wikipedia.org/wiki/Andreas_Vesalius) —— 近代[人体解剖学](https://en.wikipedia.org/wiki/Anatomy)奠基人,著《人体的构造》。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Andreas_Vesalius",
+        "tags": [
+          "医学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Man_dressed_in_Black_by_Calcar_%28Hermitage%29.jpg/500px-Man_dressed_in_Black_by_Calcar_%28Hermitage%29.jpg",
+        "born": "1514",
+        "died": "1564"
+      }
+    },
+    {
+      "_id": "elem-tVvovXke",
+      "attributes": {
+        "label": "William Harvey",
+        "description": "[威廉·哈维](https://en.wikipedia.org/wiki/William_Harvey) —— 首次系统阐明[血液循环](https://en.wikipedia.org/wiki/Circulatory_system)由心脏驱动。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/William_Harvey",
+        "tags": [
+          "医学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/4/42/William_Harvey_2.jpg/500px-William_Harvey_2.jpg",
+        "born": "1578",
+        "died": "1657"
+      }
+    },
+    {
+      "_id": "elem-GOhHGm5X",
+      "attributes": {
+        "label": "Jonas Salk",
+        "description": "[乔纳斯·索尔克](https://en.wikipedia.org/wiki/Jonas_Salk) —— 研制出首支[脊髓灰质炎疫苗](https://en.wikipedia.org/wiki/Polio_vaccine),且未申请专利。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jonas_Salk",
+        "tags": [
+          "医学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/5/59/Jonas_Salk_candid.jpg/500px-Jonas_Salk_candid.jpg",
+        "born": "1914",
+        "died": "1995"
+      }
+    },
+    {
+      "_id": "elem-wwU90P0j",
+      "attributes": {
+        "label": "Florence Nightingale",
+        "description": "[弗洛伦斯·南丁格尔](https://en.wikipedia.org/wiki/Florence_Nightingale) —— 现代护理学奠基人,也是[医学统计](https://en.wikipedia.org/wiki/Medical_statistics)与数据可视化先驱。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+        "tags": [
+          "医学"
+        ],
+        "influence": 8.3,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg/500px-Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg",
+        "born": "1820",
+        "died": "1910"
+      }
+    },
+    {
+      "_id": "elem-pgjqmlMj",
+      "attributes": {
+        "label": "Carl Linnaeus",
+        "description": "[卡尔·林奈](https://en.wikipedia.org/wiki/Carl_Linnaeus) —— 创立[双名法](https://en.wikipedia.org/wiki/Binomial_nomenclature)生物分类系统,“分类学之父”。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Carl_Linnaeus",
+        "tags": [
+          "生物学"
+        ],
+        "influence": 8.8,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Carl_von_Linn%C3%A9%2C_1707-1778%2C_botanist%2C_professor_%28Alexander_Roslin%29_-_Nationalmuseum_-_15723_%28cropped%29.tif/lossy-page1-500px-Carl_von_Linn%C3%A9%2C_1707-1778%2C_botanist%2C_professor_%28Alexander_Roslin%29_-_Nationalmuseum_-_15723_%28cropped%29.tif.jpg",
+        "born": "1707",
+        "died": "1778"
+      }
+    },
+    {
+      "_id": "elem-WWPel8XO",
+      "attributes": {
+        "label": "Antonie van Leeuwenhoek",
+        "description": "[安东尼·范·列文虎克](https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek) —— 用自制显微镜首次观察到微生物,“[微生物学](https://en.wikipedia.org/wiki/Microbiology)之父”。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek",
+        "tags": [
+          "生物学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Anthonie_van_Leeuwenhoek_%281632-1723%29._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg/500px-Anthonie_van_Leeuwenhoek_%281632-1723%29._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg",
+        "born": "1632",
+        "died": "1723"
+      }
+    },
+    {
+      "_id": "elem-FDWKWLCR",
+      "attributes": {
+        "label": "James Watson",
+        "description": "[詹姆斯·沃森](https://en.wikipedia.org/wiki/James_Watson) —— 与克里克共同提出 [DNA 双螺旋结构](https://en.wikipedia.org/wiki/Nucleic_acid_double_helix)。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/James_Watson",
+        "tags": [
+          "生物学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/d/d8/James_D._Watson_LCCN2007680359.jpg/500px-James_D._Watson_LCCN2007680359.jpg",
+        "born": "1928"
+      }
+    },
+    {
+      "_id": "elem-74KPONu3",
+      "attributes": {
+        "label": "Francis Crick",
+        "description": "[弗朗西斯·克里克](https://en.wikipedia.org/wiki/Francis_Crick) —— DNA 双螺旋的共同发现者,提出分子生物学“中心法则”。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Francis_Crick",
+        "tags": [
+          "生物学"
+        ],
+        "influence": 8.6,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/9/99/Francis_Crick_crop.jpg/500px-Francis_Crick_crop.jpg",
+        "born": "1916",
+        "died": "2004"
+      }
+    },
+    {
+      "_id": "elem-OujCeECO",
+      "attributes": {
+        "label": "Rosalind Franklin",
+        "description": "[罗莎琳德·富兰克林](https://en.wikipedia.org/wiki/Rosalind_Franklin) —— 其 X 射线衍射“照片 51 号”是揭示 [DNA 结构](https://en.wikipedia.org/wiki/Nucleic_acid_double_helix) 的关键。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+        "tags": [
+          "生物学",
+          "化学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/f/fd/Rosalind_Franklin_%28retouched%29.jpg",
+        "born": "1920",
+        "died": "1958"
+      }
+    },
+    {
+      "_id": "elem-tYrLdwGe",
+      "attributes": {
+        "label": "John Dalton",
+        "description": "[约翰·道尔顿](https://en.wikipedia.org/wiki/John_Dalton) —— 提出近代[原子论](https://en.wikipedia.org/wiki/Atomic_theory),为化学奠定微观基础。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/John_Dalton",
+        "tags": [
+          "化学"
+        ],
+        "influence": 8.7,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/0/00/John_Dalton_by_Thomas_Phillips%2C_1835.jpg/500px-John_Dalton_by_Thomas_Phillips%2C_1835.jpg",
+        "born": "1766",
+        "died": "1844"
+      }
+    },
+    {
+      "_id": "elem-tDCcdx1s",
+      "attributes": {
+        "label": "Robert Boyle",
+        "description": "[罗伯特·玻意耳](https://en.wikipedia.org/wiki/Robert_Boyle) —— 近代化学先驱,提出[玻意耳定律](https://en.wikipedia.org/wiki/Boyle%27s_law)。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Robert_Boyle",
+        "tags": [
+          "化学"
+        ],
+        "influence": 8.4,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg/500px-The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg",
+        "born": "1627",
+        "died": "1691"
+      }
+    },
+    {
+      "_id": "elem-eP32fNMG",
+      "attributes": {
+        "label": "Linus Pauling",
+        "description": "[莱纳斯·鲍林](https://en.wikipedia.org/wiki/Linus_Pauling) —— [化学键](https://en.wikipedia.org/wiki/Chemical_bond)理论奠基人,两获诺奖(化学奖与和平奖)。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Linus_Pauling",
+        "tags": [
+          "化学"
+        ],
+        "influence": 8.7,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/5/53/Linus_Pauling_in_the_1940s.jpg/500px-Linus_Pauling_in_the_1940s.jpg",
+        "born": "1901",
+        "died": "1994"
+      }
+    },
+    {
+      "_id": "elem-yDLJ9YV5",
+      "attributes": {
+        "label": "Edwin Hubble",
+        "description": "[埃德温·哈勃](https://en.wikipedia.org/wiki/Edwin_Hubble) —— 发现星系退行,证实[宇宙膨胀](https://en.wikipedia.org/wiki/Expansion_of_the_universe)。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Edwin_Hubble",
+        "tags": [
+          "天文学"
+        ],
+        "influence": 8.8,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/1/15/Studio_portrait_photograph_of_Edwin_Powell_Hubble_%28cropped%29.JPG/500px-Studio_portrait_photograph_of_Edwin_Powell_Hubble_%28cropped%29.JPG",
+        "born": "1889",
+        "died": "1953"
+      }
+    },
+    {
+      "_id": "elem-cC6ZKPmu",
+      "attributes": {
+        "label": "Tycho Brahe",
+        "description": "[第谷·布拉赫](https://en.wikipedia.org/wiki/Tycho_Brahe) —— 留下空前精确的[天文观测](https://en.wikipedia.org/wiki/Observational_astronomy)数据,成就了开普勒。",
+        "element type": "Person",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tycho_Brahe",
+        "tags": [
+          "天文学"
+        ],
+        "influence": 8.5,
+        "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/5/54/Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif/lossy-page1-500px-Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif.jpg",
+        "born": "1546",
+        "died": "1601"
+      }
+    },
+    {
+      "_id": "elem-MEGj9dCg",
+      "attributes": {
+        "label": "Classical mechanics",
+        "element type": "Project",
+        "influence": 9.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Classical%0Amechanics",
+        "description": "[经典力学](https://en.wikipedia.org/wiki/Classical_mechanics) —— 描述宏观物体运动的理论体系,由牛顿集大成。"
+      }
+    },
+    {
+      "_id": "elem-Z51vTfGP",
+      "attributes": {
+        "label": "Universal gravitation",
+        "element type": "Project",
+        "influence": 9.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Universal%0Agravitation",
+        "description": "[万有引力](https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation) —— 任意两质点相互吸引,解释了天体运行与潮汐。"
+      }
+    },
+    {
+      "_id": "elem-lcpTCCHH",
+      "attributes": {
+        "label": "Calculus",
+        "element type": "Project",
+        "influence": 9.6,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Calculus",
+        "description": "[微积分](https://en.wikipedia.org/wiki/Calculus) —— 研究变化与累积的数学分支,牛顿与莱布尼茨各自独立创立。"
+      }
+    },
+    {
+      "_id": "elem-Nkxx6syA",
+      "attributes": {
+        "label": "Optics",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Optics",
+        "description": "[光学](https://en.wikipedia.org/wiki/Optics) —— 研究光的性质与行为;牛顿用棱镜揭示白光由色光组成。"
+      }
+    },
+    {
+      "_id": "elem-XvRMdYOP",
+      "attributes": {
+        "label": "Theory of relativity",
+        "element type": "Project",
+        "influence": 9.7,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Theory%0Aof%0Arelativity",
+        "description": "[相对论](https://en.wikipedia.org/wiki/Theory_of_relativity) —— 爱因斯坦关于时空与引力的理论,含狭义与广义相对论。"
+      }
+    },
+    {
+      "_id": "elem-vevgJRys",
+      "attributes": {
+        "label": "Photoelectric effect",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Photoelectric%0Aeffect",
+        "description": "[光电效应](https://en.wikipedia.org/wiki/Photoelectric_effect) —— 光照射金属逸出电子,证明光的量子性。"
+      }
+    },
+    {
+      "_id": "elem-qU2Q96M3",
+      "attributes": {
+        "label": "Mass-energy equivalence",
+        "element type": "Project",
+        "influence": 9.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Mass-energy%0Aequivalence",
+        "description": "[质能等价](https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence) —— E=mc²,质量与能量可相互转化。"
+      }
+    },
+    {
+      "_id": "elem-jvfLQj6w",
+      "attributes": {
+        "label": "Quantum mechanics",
+        "element type": "Project",
+        "influence": 9.7,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Quantum%0Amechanics",
+        "description": "[量子力学](https://en.wikipedia.org/wiki/Quantum_mechanics) —— 描述微观粒子行为的理论,20 世纪物理学两大支柱之一。"
+      }
+    },
+    {
+      "_id": "elem-t9PSQziM",
+      "attributes": {
+        "label": "Maxwell's equations",
+        "element type": "Project",
+        "influence": 9.4,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Maxwell%27s%0Aequations",
+        "description": "[麦克斯韦方程组](https://en.wikipedia.org/wiki/Maxwell%27s_equations) —— 四个方程统一电、磁与电磁波(光)。"
+      }
+    },
+    {
+      "_id": "elem-T8ftJyPY",
+      "attributes": {
+        "label": "Electromagnetism",
+        "element type": "Project",
+        "influence": 9.4,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Electromagnetism",
+        "description": "[电磁学](https://en.wikipedia.org/wiki/Electromagnetism) —— 研究电与磁相互作用的物理分支。"
+      }
+    },
+    {
+      "_id": "elem-v0iQS18V",
+      "attributes": {
+        "label": "Statistical mechanics",
+        "element type": "Project",
+        "influence": 8.6,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Statistical%0Amechanics",
+        "description": "[统计力学](https://en.wikipedia.org/wiki/Statistical_mechanics) —— 用大量粒子的统计行为解释宏观热力学性质。"
+      }
+    },
+    {
+      "_id": "elem-R6HfPQBG",
+      "attributes": {
+        "label": "Evolution",
+        "element type": "Project",
+        "influence": 9.6,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Evolution",
+        "description": "[进化论](https://en.wikipedia.org/wiki/Evolution) —— 物种随世代变化的理论,生命多样性的统一解释。"
+      }
+    },
+    {
+      "_id": "elem-xbxtl8nv",
+      "attributes": {
+        "label": "Natural selection",
+        "element type": "Project",
+        "influence": 9.4,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Natural%0Aselection",
+        "description": "[自然选择](https://en.wikipedia.org/wiki/Natural_selection) —— 适应环境者更易存活繁衍,进化的核心机制。"
+      }
+    },
+    {
+      "_id": "elem-8XFmoije",
+      "attributes": {
+        "label": "Heliocentrism",
+        "element type": "Project",
+        "influence": 9.4,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Heliocentrism",
+        "description": "[日心说](https://en.wikipedia.org/wiki/Heliocentrism) —— 地球与行星绕太阳运行,取代地心说。"
+      }
+    },
+    {
+      "_id": "elem-s2YgGXI1",
+      "attributes": {
+        "label": "Telescope astronomy",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Telescope%0Aastronomy",
+        "description": "[望远镜天文学](https://en.wikipedia.org/wiki/Galileo%27s_telescope) —— 伽利略以望远镜观测月面、木卫与金星相位。"
+      }
+    },
+    {
+      "_id": "elem-V4HcQv4X",
+      "attributes": {
+        "label": "Laws of planetary motion",
+        "element type": "Project",
+        "influence": 9.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Laws%0Aof%0Aplanetary%0Amotion",
+        "description": "[行星运动定律](https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion) —— 开普勒三定律,描述行星沿椭圆轨道运行。"
+      }
+    },
+    {
+      "_id": "elem-NiMyjkl1",
+      "attributes": {
+        "label": "Electromagnetic induction",
+        "element type": "Project",
+        "influence": 8.8,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Electromagnetic%0Ainduction",
+        "description": "[电磁感应](https://en.wikipedia.org/wiki/Electromagnetic_induction) —— 变化磁场产生电流,发电机的原理。"
+      }
+    },
+    {
+      "_id": "elem-SXNZ5kUC",
+      "attributes": {
+        "label": "Radioactivity",
+        "element type": "Project",
+        "influence": 9.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Radioactivity",
+        "description": "[放射性](https://en.wikipedia.org/wiki/Radioactive_decay) —— 不稳定原子核自发衰变并放出射线。"
+      }
+    },
+    {
+      "_id": "elem-cAxRUpCN",
+      "attributes": {
+        "label": "Bohr model",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Bohr%0Amodel",
+        "description": "[玻尔模型](https://en.wikipedia.org/wiki/Bohr_model) —— 电子在量子化轨道绕核运行的原子模型。"
+      }
+    },
+    {
+      "_id": "elem-sWVYCoIp",
+      "attributes": {
+        "label": "Black-body radiation",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Black-body%0Aradiation",
+        "description": "[黑体辐射](https://en.wikipedia.org/wiki/Black-body_radiation) —— 理想物体的热辐射;普朗克的解释开启量子论。"
+      }
+    },
+    {
+      "_id": "elem-t9ZYE51m",
+      "attributes": {
+        "label": "Uncertainty principle",
+        "element type": "Project",
+        "influence": 8.8,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Uncertainty%0Aprinciple",
+        "description": "[不确定性原理](https://en.wikipedia.org/wiki/Uncertainty_principle) —— 粒子的位置与动量无法同时被精确确定。"
+      }
+    },
+    {
+      "_id": "elem-xR8KCDXs",
+      "attributes": {
+        "label": "Schrödinger equation",
+        "element type": "Project",
+        "influence": 8.8,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Schr%C3%B6dinger%0Aequation",
+        "description": "[薛定谔方程](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation) —— 描述量子态随时间演化的基本方程。"
+      }
+    },
+    {
+      "_id": "elem-XyGHA9k0",
+      "attributes": {
+        "label": "Antimatter",
+        "element type": "Project",
+        "influence": 8.3,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Antimatter",
+        "description": "[反物质](https://en.wikipedia.org/wiki/Antimatter) —— 与正常物质电荷相反的粒子,由狄拉克预言。"
+      }
+    },
+    {
+      "_id": "elem-mZMi3qdP",
+      "attributes": {
+        "label": "Quantum electrodynamics",
+        "element type": "Project",
+        "influence": 8.7,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Quantum%0Aelectrodynamics",
+        "description": "[量子电动力学](https://en.wikipedia.org/wiki/Quantum_electrodynamics) —— 光与物质相互作用的量子场论,精度极高。"
+      }
+    },
+    {
+      "_id": "elem-E3xJ7gT2",
+      "attributes": {
+        "label": "Alternating current",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Alternating%0Acurrent",
+        "description": "[交流电](https://en.wikipedia.org/wiki/Alternating_current) —— 方向周期变化的电流,现代电力传输的基础。"
+      }
+    },
+    {
+      "_id": "elem-H2hsfWkr",
+      "attributes": {
+        "label": "Genetics",
+        "element type": "Project",
+        "influence": 9.2,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Genetics",
+        "description": "[遗传学](https://en.wikipedia.org/wiki/Genetics) —— 研究基因、遗传与变异的学科,源于孟德尔。"
+      }
+    },
+    {
+      "_id": "elem-C5Gj1Bf8",
+      "attributes": {
+        "label": "Germ theory",
+        "element type": "Project",
+        "influence": 9.2,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Germ%0Atheory",
+        "description": "[细菌致病学说](https://en.wikipedia.org/wiki/Germ_theory_of_disease) —— 许多疾病由微生物引起,革新了医学与公共卫生。"
+      }
+    },
+    {
+      "_id": "elem-6o0C4w7b",
+      "attributes": {
+        "label": "Vaccination",
+        "element type": "Project",
+        "influence": 9.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Vaccination",
+        "description": "[疫苗接种](https://en.wikipedia.org/wiki/Vaccination) —— 用减弱或灭活病原激发免疫,预防传染病。"
+      }
+    },
+    {
+      "_id": "elem-AdzGxpyf",
+      "attributes": {
+        "label": "Periodic table",
+        "element type": "Project",
+        "influence": 9.3,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Periodic%0Atable",
+        "description": "[元素周期表](https://en.wikipedia.org/wiki/Periodic_table) —— 按原子序与性质排列元素的表格,化学的地图。"
+      }
+    },
+    {
+      "_id": "elem-xobu7g1T",
+      "attributes": {
+        "label": "Conservation of mass",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Conservation%0Aof%0Amass",
+        "description": "[质量守恒定律](https://en.wikipedia.org/wiki/Conservation_of_mass) —— 化学反应前后总质量不变。"
+      }
+    },
+    {
+      "_id": "elem-PvYjics6",
+      "attributes": {
+        "label": "Modern chemistry",
+        "element type": "Project",
+        "influence": 8.7,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Modern%0Achemistry",
+        "description": "[近代化学](https://en.wikipedia.org/wiki/History_of_chemistry) —— 以定量实验取代炼金术,拉瓦锡等奠定。"
+      }
+    },
+    {
+      "_id": "elem-1ES1iWTE",
+      "attributes": {
+        "label": "Entropy",
+        "element type": "Project",
+        "influence": 8.7,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Entropy",
+        "description": "[熵](https://en.wikipedia.org/wiki/Entropy) —— 衡量无序程度的物理量,与热力学第二定律密切相关。"
+      }
+    },
+    {
+      "_id": "elem-CNa5fbqn",
+      "attributes": {
+        "label": "Geometry",
+        "element type": "Project",
+        "influence": 9.2,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Geometry",
+        "description": "[几何学](https://en.wikipedia.org/wiki/Geometry) —— 研究形状、大小与空间关系的数学分支。"
+      }
+    },
+    {
+      "_id": "elem-1jJ8UMHB",
+      "attributes": {
+        "label": "Archimedes' principle",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Archimedes%27%0Aprinciple",
+        "description": "[阿基米德原理](https://en.wikipedia.org/wiki/Archimedes%27_principle) —— 浸入流体的物体受到等于排开流体重量的浮力。"
+      }
+    },
+    {
+      "_id": "elem-hXspthdp",
+      "attributes": {
+        "label": "Number theory",
+        "element type": "Project",
+        "influence": 9.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Number%0Atheory",
+        "description": "[数论](https://en.wikipedia.org/wiki/Number_theory) —— 研究整数性质的数学分支,被誉为“数学皇后”。"
+      }
+    },
+    {
+      "_id": "elem-AOYNDeh1",
+      "attributes": {
+        "label": "Normal distribution",
+        "element type": "Project",
+        "influence": 8.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Normal%0Adistribution",
+        "description": "[正态分布](https://en.wikipedia.org/wiki/Normal_distribution) —— 自然界普遍的钟形概率分布,又称高斯分布。"
+      }
+    },
+    {
+      "_id": "elem-5FMIbOGK",
+      "attributes": {
+        "label": "Graph theory",
+        "element type": "Project",
+        "influence": 8.3,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Graph%0Atheory",
+        "description": "[图论](https://en.wikipedia.org/wiki/Graph_theory) —— 研究点与边构成的网络,源自欧拉的七桥问题。"
+      }
+    },
+    {
+      "_id": "elem-pTjsBaNw",
+      "attributes": {
+        "label": "Riemann hypothesis",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Riemann%0Ahypothesis",
+        "description": "[黎曼猜想](https://en.wikipedia.org/wiki/Riemann_hypothesis) —— 关于素数分布的著名未解难题。"
+      }
+    },
+    {
+      "_id": "elem-pKAlQQfH",
+      "attributes": {
+        "label": "Non-Euclidean geometry",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Non-Euclidean%0Ageometry",
+        "description": "[非欧几何](https://en.wikipedia.org/wiki/Non-Euclidean_geometry) —— 突破平行公理的几何,为广义相对论提供数学工具。"
+      }
+    },
+    {
+      "_id": "elem-xe9HIGYG",
+      "attributes": {
+        "label": "Probability theory",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Probability%0Atheory",
+        "description": "[概率论](https://en.wikipedia.org/wiki/Probability_theory) —— 研究随机现象规律的数学分支。"
+      }
+    },
+    {
+      "_id": "elem-Jby3EcOy",
+      "attributes": {
+        "label": "Set theory",
+        "element type": "Project",
+        "influence": 9.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Set%0Atheory",
+        "description": "[集合论](https://en.wikipedia.org/wiki/Set_theory) —— 研究集合的数学基础,康托尔创立。"
+      }
+    },
+    {
+      "_id": "elem-xqVbwYew",
+      "attributes": {
+        "label": "Hilbert space",
+        "element type": "Project",
+        "influence": 8.3,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Hilbert%0Aspace",
+        "description": "[希尔伯特空间](https://en.wikipedia.org/wiki/Hilbert_space) —— 完备的内积空间,量子力学的数学舞台。"
+      }
+    },
+    {
+      "_id": "elem-pUQOgXLV",
+      "attributes": {
+        "label": "Topology",
+        "element type": "Project",
+        "influence": 8.3,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Topology",
+        "description": "[拓扑学](https://en.wikipedia.org/wiki/Topology) —— 研究在连续变形下保持不变的空间性质。"
+      }
+    },
+    {
+      "_id": "elem-WvicwIv0",
+      "attributes": {
+        "label": "Chaos theory",
+        "element type": "Project",
+        "influence": 8.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Chaos%0Atheory",
+        "description": "[混沌理论](https://en.wikipedia.org/wiki/Chaos_theory) —— 研究对初始条件敏感的确定性系统(蝴蝶效应)。"
+      }
+    },
+    {
+      "_id": "elem-Pl1XRDSE",
+      "attributes": {
+        "label": "Abstract algebra",
+        "element type": "Project",
+        "influence": 8.3,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Abstract%0Aalgebra",
+        "description": "[抽象代数](https://en.wikipedia.org/wiki/Abstract_algebra) —— 研究群、环、域等代数结构。"
+      }
+    },
+    {
+      "_id": "elem-OlZieTX8",
+      "attributes": {
+        "label": "Noether's theorem",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Noether%27s%0Atheorem",
+        "description": "[诺特定理](https://en.wikipedia.org/wiki/Noether%27s_theorem) —— 每一种连续对称性对应一个守恒律。"
+      }
+    },
+    {
+      "_id": "elem-DcsmcYm4",
+      "attributes": {
+        "label": "Incompleteness theorems",
+        "element type": "Project",
+        "influence": 9.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Incompleteness%0Atheorems",
+        "description": "[哥德尔不完备定理](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) —— 任何足够强的形式系统都有不可证明的真命题。"
+      }
+    },
+    {
+      "_id": "elem-cu7tGz0I",
+      "attributes": {
+        "label": "Hippocratic medicine",
+        "element type": "Project",
+        "influence": 8.8,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Hippocratic%0Amedicine",
+        "description": "[希波克拉底医学](https://en.wikipedia.org/wiki/Hippocrates) —— 将疾病归因于自然而非神灵,奠定理性医学传统。"
+      }
+    },
+    {
+      "_id": "elem-EqcWPmsw",
+      "attributes": {
+        "label": "Bacteriology",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Bacteriology",
+        "description": "[细菌学](https://en.wikipedia.org/wiki/Bacteriology) —— 研究细菌及其与疾病关系的学科。"
+      }
+    },
+    {
+      "_id": "elem-3Xd3Pvrh",
+      "attributes": {
+        "label": "Penicillin",
+        "element type": "Project",
+        "influence": 9.2,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Penicillin",
+        "description": "[青霉素](https://en.wikipedia.org/wiki/Penicillin) —— 首个广泛使用的抗生素,挽救了无数生命。"
+      }
+    },
+    {
+      "_id": "elem-ZxB4zVC5",
+      "attributes": {
+        "label": "Antibiotics",
+        "element type": "Project",
+        "influence": 8.8,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Antibiotics",
+        "description": "[抗生素](https://en.wikipedia.org/wiki/Antibiotic) —— 抑制或杀灭细菌的药物。"
+      }
+    },
+    {
+      "_id": "elem-9yvlFSFx",
+      "attributes": {
+        "label": "Antiseptic surgery",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Antiseptic%0Asurgery",
+        "description": "[无菌外科](https://en.wikipedia.org/wiki/Antiseptic) —— 通过消毒减少手术感染,李斯特倡导。"
+      }
+    },
+    {
+      "_id": "elem-7ZHrZfUB",
+      "attributes": {
+        "label": "Human anatomy",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Human%0Aanatomy",
+        "description": "[人体解剖学](https://en.wikipedia.org/wiki/Human_body) —— 研究人体结构的学科,维萨里使其建立在实证之上。"
+      }
+    },
+    {
+      "_id": "elem-fBM0lIsu",
+      "attributes": {
+        "label": "Blood circulation",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Blood%0Acirculation",
+        "description": "[血液循环](https://en.wikipedia.org/wiki/Circulatory_system) —— 心脏驱动血液在全身循环,哈维阐明。"
+      }
+    },
+    {
+      "_id": "elem-gfuQstCM",
+      "attributes": {
+        "label": "Polio vaccine",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Polio%0Avaccine",
+        "description": "[脊髓灰质炎疫苗](https://en.wikipedia.org/wiki/Polio_vaccine) —— 有效预防小儿麻痹症的疫苗。"
+      }
+    },
+    {
+      "_id": "elem-TBkSCwCc",
+      "attributes": {
+        "label": "Modern nursing",
+        "element type": "Project",
+        "influence": 8.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Modern%0Anursing",
+        "description": "[现代护理](https://en.wikipedia.org/wiki/Nursing) —— 南丁格尔将护理发展为专业学科。"
+      }
+    },
+    {
+      "_id": "elem-U36wNBrO",
+      "attributes": {
+        "label": "Medical statistics",
+        "element type": "Project",
+        "influence": 7.8,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Medical%0Astatistics",
+        "description": "[医学统计](https://en.wikipedia.org/wiki/Medical_statistics) —— 用统计方法分析健康与医疗数据。"
+      }
+    },
+    {
+      "_id": "elem-Y8deQOzx",
+      "attributes": {
+        "label": "Taxonomy",
+        "element type": "Project",
+        "influence": 8.8,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Taxonomy",
+        "description": "[生物分类学](https://en.wikipedia.org/wiki/Taxonomy_%28biology%29) —— 对生物进行命名与分类的系统,林奈奠定。"
+      }
+    },
+    {
+      "_id": "elem-GZVRk8bj",
+      "attributes": {
+        "label": "Microbiology",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Microbiology",
+        "description": "[微生物学](https://en.wikipedia.org/wiki/Microbiology) —— 研究细菌、病毒等微小生物的学科。"
+      }
+    },
+    {
+      "_id": "elem-2MRYCcie",
+      "attributes": {
+        "label": "DNA structure",
+        "element type": "Project",
+        "influence": 9.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=DNA%0Astructure",
+        "description": "[DNA 双螺旋结构](https://en.wikipedia.org/wiki/Nucleic_acid_double_helix) —— 遗传信息的分子载体,1953 年揭示。"
+      }
+    },
+    {
+      "_id": "elem-pXPxxy8K",
+      "attributes": {
+        "label": "Atomic theory",
+        "element type": "Project",
+        "influence": 9.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Atomic%0Atheory",
+        "description": "[原子论](https://en.wikipedia.org/wiki/Atomic_theory) —— 物质由原子构成的理论,道尔顿提出近代形式。"
+      }
+    },
+    {
+      "_id": "elem-cMjRC8xx",
+      "attributes": {
+        "label": "Boyle's law",
+        "element type": "Project",
+        "influence": 8.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Boyle%27s%0Alaw",
+        "description": "[玻意耳定律](https://en.wikipedia.org/wiki/Boyle%27s_law) —— 定温下气体压强与体积成反比。"
+      }
+    },
+    {
+      "_id": "elem-CWeKiHxz",
+      "attributes": {
+        "label": "Chemical bond",
+        "element type": "Project",
+        "influence": 8.5,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Chemical%0Abond",
+        "description": "[化学键](https://en.wikipedia.org/wiki/Chemical_bond) —— 原子间的相互作用力,鲍林系统阐释。"
+      }
+    },
+    {
+      "_id": "elem-uPrp9hbV",
+      "attributes": {
+        "label": "Expanding universe",
+        "element type": "Project",
+        "influence": 8.8,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Expanding%0Auniverse",
+        "description": "[宇宙膨胀](https://en.wikipedia.org/wiki/Expansion_of_the_universe) —— 星系彼此远离,支持大爆炸理论。"
+      }
+    },
+    {
+      "_id": "elem-lFHy6Jhq",
+      "attributes": {
+        "label": "Astronomical observation",
+        "element type": "Project",
+        "influence": 8.0,
+        "image": "https://placehold.co/300x300/2c3e50/ecf0f1/png?text=Astronomical%0Aobservation",
+        "description": "[天文观测](https://en.wikipedia.org/wiki/Observational_astronomy) —— 通过测量天体获取数据,第谷的记录尤为精确。"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-XqTCnNsS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qdiVAHhV",
+      "to": "elem-MEGj9dCg"
+    },
+    {
+      "_id": "conn-6Fmhi2eC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qdiVAHhV",
+      "to": "elem-Z51vTfGP"
+    },
+    {
+      "_id": "conn-l5TCfZR9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qdiVAHhV",
+      "to": "elem-lcpTCCHH"
+    },
+    {
+      "_id": "conn-2uQwTeJI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qdiVAHhV",
+      "to": "elem-Nkxx6syA"
+    },
+    {
+      "_id": "conn-s5t2kTT7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-eECXxGLg",
+      "to": "elem-XvRMdYOP"
+    },
+    {
+      "_id": "conn-SOlYxGoh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-eECXxGLg",
+      "to": "elem-vevgJRys"
+    },
+    {
+      "_id": "conn-mYipYFbx",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-eECXxGLg",
+      "to": "elem-qU2Q96M3"
+    },
+    {
+      "_id": "conn-JKxDZJiN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-eECXxGLg",
+      "to": "elem-jvfLQj6w"
+    },
+    {
+      "_id": "conn-4fetzTUE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-CGo8NcUY",
+      "to": "elem-t9PSQziM"
+    },
+    {
+      "_id": "conn-HAXA0Kei",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-CGo8NcUY",
+      "to": "elem-T8ftJyPY"
+    },
+    {
+      "_id": "conn-uPeCDRHw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-CGo8NcUY",
+      "to": "elem-v0iQS18V"
+    },
+    {
+      "_id": "conn-i41XJOLl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-63QHtDP9",
+      "to": "elem-R6HfPQBG"
+    },
+    {
+      "_id": "conn-X9iBG63d",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-63QHtDP9",
+      "to": "elem-xbxtl8nv"
+    },
+    {
+      "_id": "conn-1hHjtkku",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-bdE2zBRg",
+      "to": "elem-8XFmoije"
+    },
+    {
+      "_id": "conn-7Tow88H5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-bdE2zBRg",
+      "to": "elem-s2YgGXI1"
+    },
+    {
+      "_id": "conn-s2fqmO9J",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-bdE2zBRg",
+      "to": "elem-MEGj9dCg"
+    },
+    {
+      "_id": "conn-riOtNIfG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-FT6Ce5fu",
+      "to": "elem-8XFmoije"
+    },
+    {
+      "_id": "conn-PkL8LjkQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-MjeirNOL",
+      "to": "elem-V4HcQv4X"
+    },
+    {
+      "_id": "conn-NU5Mv17K",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-MjeirNOL",
+      "to": "elem-8XFmoije"
+    },
+    {
+      "_id": "conn-c03bfc8P",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JTuyMHsD",
+      "to": "elem-T8ftJyPY"
+    },
+    {
+      "_id": "conn-XKqPnXKA",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JTuyMHsD",
+      "to": "elem-NiMyjkl1"
+    },
+    {
+      "_id": "conn-NObF4OIs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GMBgYSh2",
+      "to": "elem-SXNZ5kUC"
+    },
+    {
+      "_id": "conn-P9tEpZZR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-PP4XJU3n",
+      "to": "elem-jvfLQj6w"
+    },
+    {
+      "_id": "conn-ztDeSdkC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-PP4XJU3n",
+      "to": "elem-cAxRUpCN"
+    },
+    {
+      "_id": "conn-AEDnvMju",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-BC4oAv0D",
+      "to": "elem-jvfLQj6w"
+    },
+    {
+      "_id": "conn-3TuU3wzi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-BC4oAv0D",
+      "to": "elem-sWVYCoIp"
+    },
+    {
+      "_id": "conn-WxGJgupD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-zAUguBuQ",
+      "to": "elem-jvfLQj6w"
+    },
+    {
+      "_id": "conn-hrCpjgds",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-zAUguBuQ",
+      "to": "elem-t9ZYE51m"
+    },
+    {
+      "_id": "conn-8y3NAp93",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qx9jR7Ee",
+      "to": "elem-jvfLQj6w"
+    },
+    {
+      "_id": "conn-5k0u7KUu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qx9jR7Ee",
+      "to": "elem-xR8KCDXs"
+    },
+    {
+      "_id": "conn-mWkFGDF4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f1ffBgVV",
+      "to": "elem-jvfLQj6w"
+    },
+    {
+      "_id": "conn-tFbf8zGD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f1ffBgVV",
+      "to": "elem-XyGHA9k0"
+    },
+    {
+      "_id": "conn-9pnLwdds",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f1ffBgVV",
+      "to": "elem-mZMi3qdP"
+    },
+    {
+      "_id": "conn-FM41PREs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-xZiJdL9J",
+      "to": "elem-mZMi3qdP"
+    },
+    {
+      "_id": "conn-Ia2gBi4q",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JvQhAw3Q",
+      "to": "elem-E3xJ7gT2"
+    },
+    {
+      "_id": "conn-UxWzxczd",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JvQhAw3Q",
+      "to": "elem-T8ftJyPY"
+    },
+    {
+      "_id": "conn-KJmxJsey",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8WB36Ud9",
+      "to": "elem-H2hsfWkr"
+    },
+    {
+      "_id": "conn-GCWJr0NR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-sMtwgKGn",
+      "to": "elem-C5Gj1Bf8"
+    },
+    {
+      "_id": "conn-NhigzxYv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-sMtwgKGn",
+      "to": "elem-6o0C4w7b"
+    },
+    {
+      "_id": "conn-J8xWjmMG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-jQEo2gw2",
+      "to": "elem-AdzGxpyf"
+    },
+    {
+      "_id": "conn-zGccciTv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JxhWrKoZ",
+      "to": "elem-xobu7g1T"
+    },
+    {
+      "_id": "conn-ZEHDjM5G",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JxhWrKoZ",
+      "to": "elem-PvYjics6"
+    },
+    {
+      "_id": "conn-iu7NukzN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-B2JX0NNR",
+      "to": "elem-v0iQS18V"
+    },
+    {
+      "_id": "conn-V1tLvG1G",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-B2JX0NNR",
+      "to": "elem-1ES1iWTE"
+    },
+    {
+      "_id": "conn-IFTKtE0b",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-PJbM7Q1S",
+      "to": "elem-lcpTCCHH"
+    },
+    {
+      "_id": "conn-xvRhALtY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-rblrSWt6",
+      "to": "elem-CNa5fbqn"
+    },
+    {
+      "_id": "conn-5U3SObME",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-vwal3jKQ",
+      "to": "elem-1jJ8UMHB"
+    },
+    {
+      "_id": "conn-q9PYXLKo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-vwal3jKQ",
+      "to": "elem-CNa5fbqn"
+    },
+    {
+      "_id": "conn-UdLEkHOU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-zejVObfV",
+      "to": "elem-hXspthdp"
+    },
+    {
+      "_id": "conn-NX1yj0Rp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-zejVObfV",
+      "to": "elem-AOYNDeh1"
+    },
+    {
+      "_id": "conn-cK8ShmbC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-HnyADvkx",
+      "to": "elem-5FMIbOGK"
+    },
+    {
+      "_id": "conn-uAjASnAG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-HnyADvkx",
+      "to": "elem-lcpTCCHH"
+    },
+    {
+      "_id": "conn-XN6E32VU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-tUuX8KMf",
+      "to": "elem-pTjsBaNw"
+    },
+    {
+      "_id": "conn-dTiHnJuQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-tUuX8KMf",
+      "to": "elem-pKAlQQfH"
+    },
+    {
+      "_id": "conn-EHyu9lD6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4djkWNdR",
+      "to": "elem-hXspthdp"
+    },
+    {
+      "_id": "conn-IvIwRX3U",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4djkWNdR",
+      "to": "elem-xe9HIGYG"
+    },
+    {
+      "_id": "conn-RPZSqNEm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-frCQBFMC",
+      "to": "elem-Jby3EcOy"
+    },
+    {
+      "_id": "conn-9prJto8t",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ArnWGhwB",
+      "to": "elem-xqVbwYew"
+    },
+    {
+      "_id": "conn-XsTnSTFu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ArnWGhwB",
+      "to": "elem-Jby3EcOy"
+    },
+    {
+      "_id": "conn-EwJ77YUr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-hsRRLFHQ",
+      "to": "elem-pUQOgXLV"
+    },
+    {
+      "_id": "conn-shKRIy5z",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-hsRRLFHQ",
+      "to": "elem-WvicwIv0"
+    },
+    {
+      "_id": "conn-0w9XZjsc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-tcozMdan",
+      "to": "elem-hXspthdp"
+    },
+    {
+      "_id": "conn-s9Tfw7CP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t8nXiWqs",
+      "to": "elem-Pl1XRDSE"
+    },
+    {
+      "_id": "conn-qVEnm0Ir",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t8nXiWqs",
+      "to": "elem-OlZieTX8"
+    },
+    {
+      "_id": "conn-7JSrigNV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-uhaFVBli",
+      "to": "elem-DcsmcYm4"
+    },
+    {
+      "_id": "conn-LppdQ5Ho",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-yIToGJ1Q",
+      "to": "elem-xe9HIGYG"
+    },
+    {
+      "_id": "conn-OodgAvTE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-Zwez3VcB",
+      "to": "elem-cu7tGz0I"
+    },
+    {
+      "_id": "conn-gRXia9J7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-bD6e3uKB",
+      "to": "elem-6o0C4w7b"
+    },
+    {
+      "_id": "conn-kAP744EE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-KzTOAshz",
+      "to": "elem-C5Gj1Bf8"
+    },
+    {
+      "_id": "conn-PmW9susP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-KzTOAshz",
+      "to": "elem-EqcWPmsw"
+    },
+    {
+      "_id": "conn-d6XfPKoI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-b9ukZ8ND",
+      "to": "elem-3Xd3Pvrh"
+    },
+    {
+      "_id": "conn-VU27c66l",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-b9ukZ8ND",
+      "to": "elem-ZxB4zVC5"
+    },
+    {
+      "_id": "conn-A41l76c1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1S6xfB2g",
+      "to": "elem-9yvlFSFx"
+    },
+    {
+      "_id": "conn-zYFl7V93",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-pBLzHfz3",
+      "to": "elem-7ZHrZfUB"
+    },
+    {
+      "_id": "conn-7s4catKM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-tVvovXke",
+      "to": "elem-fBM0lIsu"
+    },
+    {
+      "_id": "conn-g7vsDPIH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GOhHGm5X",
+      "to": "elem-gfuQstCM"
+    },
+    {
+      "_id": "conn-F48i2GDr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GOhHGm5X",
+      "to": "elem-6o0C4w7b"
+    },
+    {
+      "_id": "conn-mZhvkUDP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-wwU90P0j",
+      "to": "elem-TBkSCwCc"
+    },
+    {
+      "_id": "conn-qTlaVvYs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-wwU90P0j",
+      "to": "elem-U36wNBrO"
+    },
+    {
+      "_id": "conn-KRWmlN2O",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-pgjqmlMj",
+      "to": "elem-Y8deQOzx"
+    },
+    {
+      "_id": "conn-5z0BGufz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WWPel8XO",
+      "to": "elem-GZVRk8bj"
+    },
+    {
+      "_id": "conn-QgliEu7p",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-FDWKWLCR",
+      "to": "elem-2MRYCcie"
+    },
+    {
+      "_id": "conn-aqypCWr9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-74KPONu3",
+      "to": "elem-2MRYCcie"
+    },
+    {
+      "_id": "conn-vtLUKaqP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-OujCeECO",
+      "to": "elem-2MRYCcie"
+    },
+    {
+      "_id": "conn-xSpdQhDt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-tYrLdwGe",
+      "to": "elem-pXPxxy8K"
+    },
+    {
+      "_id": "conn-kzRG754T",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-tDCcdx1s",
+      "to": "elem-cMjRC8xx"
+    },
+    {
+      "_id": "conn-XtShO68s",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-tDCcdx1s",
+      "to": "elem-PvYjics6"
+    },
+    {
+      "_id": "conn-xNoo9iEj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-eP32fNMG",
+      "to": "elem-CWeKiHxz"
+    },
+    {
+      "_id": "conn-DVMxASJ6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-yDLJ9YV5",
+      "to": "elem-uPrp9hbV"
+    },
+    {
+      "_id": "conn-EWIZQ0nW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-cC6ZKPmu",
+      "to": "elem-lFHy6Jhq"
+    },
+    {
+      "_id": "conn-pRWM3YfH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-cC6ZKPmu",
+      "to": "elem-V4HcQv4X"
+    },
+    {
+      "_id": "conn-CHTxe6Kh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-8XFmoije",
+      "to": "elem-V4HcQv4X"
+    },
+    {
+      "_id": "conn-d1J5GmKI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-V4HcQv4X",
+      "to": "elem-Z51vTfGP"
+    },
+    {
+      "_id": "conn-jku2HChR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-lcpTCCHH",
+      "to": "elem-MEGj9dCg"
+    },
+    {
+      "_id": "conn-nTLFf5GC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-MEGj9dCg",
+      "to": "elem-XvRMdYOP"
+    },
+    {
+      "_id": "conn-ZdDiGADK",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-T8ftJyPY",
+      "to": "elem-t9PSQziM"
+    },
+    {
+      "_id": "conn-dJDRZtUb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-t9PSQziM",
+      "to": "elem-XvRMdYOP"
+    },
+    {
+      "_id": "conn-zq0aVnLe",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-NiMyjkl1",
+      "to": "elem-E3xJ7gT2"
+    },
+    {
+      "_id": "conn-cBwSeId7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-sWVYCoIp",
+      "to": "elem-jvfLQj6w"
+    },
+    {
+      "_id": "conn-5e7EcsAl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-jvfLQj6w",
+      "to": "elem-cAxRUpCN"
+    },
+    {
+      "_id": "conn-XiXPUP9A",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-jvfLQj6w",
+      "to": "elem-t9ZYE51m"
+    },
+    {
+      "_id": "conn-x5yC366y",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-jvfLQj6w",
+      "to": "elem-xR8KCDXs"
+    },
+    {
+      "_id": "conn-yfR9Q3Ii",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-jvfLQj6w",
+      "to": "elem-mZMi3qdP"
+    },
+    {
+      "_id": "conn-P3whlIzH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-pXPxxy8K",
+      "to": "elem-AdzGxpyf"
+    },
+    {
+      "_id": "conn-iUo1aWbt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-pXPxxy8K",
+      "to": "elem-jvfLQj6w"
+    },
+    {
+      "_id": "conn-DRUIBIy0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-CNa5fbqn",
+      "to": "elem-pKAlQQfH"
+    },
+    {
+      "_id": "conn-opDwjrm7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-R6HfPQBG",
+      "to": "elem-H2hsfWkr"
+    },
+    {
+      "_id": "conn-4UWhcZQA",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-H2hsfWkr",
+      "to": "elem-2MRYCcie"
+    },
+    {
+      "_id": "conn-NX744bpn",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-GZVRk8bj",
+      "to": "elem-C5Gj1Bf8"
+    },
+    {
+      "_id": "conn-egMcCMRT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-C5Gj1Bf8",
+      "to": "elem-EqcWPmsw"
+    },
+    {
+      "_id": "conn-3dpVczCo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-C5Gj1Bf8",
+      "to": "elem-6o0C4w7b"
+    },
+    {
+      "_id": "conn-InW3XdiG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "evolution"
+      },
+      "from": "elem-EqcWPmsw",
+      "to": "elem-ZxB4zVC5"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-jQHoAtrd",
+      "name": "完整网络",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-so06UKuK",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "directed",
+      "elements": [
+        {
+          "_id": "node-J8L4V6lO",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qdiVAHhV"
+        },
+        {
+          "_id": "node-RBJFdw8P",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-eECXxGLg"
+        },
+        {
+          "_id": "node-QyYHuSAA",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CGo8NcUY"
+        },
+        {
+          "_id": "node-jtylWIEp",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-63QHtDP9"
+        },
+        {
+          "_id": "node-2ot2TjZD",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bdE2zBRg"
+        },
+        {
+          "_id": "node-6dJA9AJH",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-FT6Ce5fu"
+        },
+        {
+          "_id": "node-iypqnvPf",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-MjeirNOL"
+        },
+        {
+          "_id": "node-7C2xfIU1",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-JTuyMHsD"
+        },
+        {
+          "_id": "node-mdryRMMc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GMBgYSh2"
+        },
+        {
+          "_id": "node-3emZWLUQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PP4XJU3n"
+        },
+        {
+          "_id": "node-JnEn36vt",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-BC4oAv0D"
+        },
+        {
+          "_id": "node-96an7m9V",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-zAUguBuQ"
+        },
+        {
+          "_id": "node-hVWE6pSM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qx9jR7Ee"
+        },
+        {
+          "_id": "node-Tnz6pJuX",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-f1ffBgVV"
+        },
+        {
+          "_id": "node-syDIPwtq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xZiJdL9J"
+        },
+        {
+          "_id": "node-xG4FDgZU",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-JvQhAw3Q"
+        },
+        {
+          "_id": "node-EW1u6nxu",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8WB36Ud9"
+        },
+        {
+          "_id": "node-AcK3oVjb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sMtwgKGn"
+        },
+        {
+          "_id": "node-qJ7LLUAs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jQEo2gw2"
+        },
+        {
+          "_id": "node-jmvoyK1p",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-JxhWrKoZ"
+        },
+        {
+          "_id": "node-FJP8RvqW",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-B2JX0NNR"
+        },
+        {
+          "_id": "node-0F9UPVFD",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PJbM7Q1S"
+        },
+        {
+          "_id": "node-kUYwkiUI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-rblrSWt6"
+        },
+        {
+          "_id": "node-Fl64IP9d",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vwal3jKQ"
+        },
+        {
+          "_id": "node-Hc12e80Q",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-zejVObfV"
+        },
+        {
+          "_id": "node-dWaAi1Oo",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-HnyADvkx"
+        },
+        {
+          "_id": "node-eTjanGDx",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tUuX8KMf"
+        },
+        {
+          "_id": "node-dNOQ7N6E",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4djkWNdR"
+        },
+        {
+          "_id": "node-QFbaIJAa",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-frCQBFMC"
+        },
+        {
+          "_id": "node-bHUrIsbG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ArnWGhwB"
+        },
+        {
+          "_id": "node-0SRBZ86l",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-hsRRLFHQ"
+        },
+        {
+          "_id": "node-g6gHjpmN",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tcozMdan"
+        },
+        {
+          "_id": "node-Hq0wrYzf",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-t8nXiWqs"
+        },
+        {
+          "_id": "node-x9zDKpSo",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-uhaFVBli"
+        },
+        {
+          "_id": "node-tR02fP2P",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-yIToGJ1Q"
+        },
+        {
+          "_id": "node-WcfzyyJE",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Zwez3VcB"
+        },
+        {
+          "_id": "node-dOaSkfF2",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bD6e3uKB"
+        },
+        {
+          "_id": "node-BPYvK2g5",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KzTOAshz"
+        },
+        {
+          "_id": "node-H6con53S",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-b9ukZ8ND"
+        },
+        {
+          "_id": "node-4KErc7eR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-1S6xfB2g"
+        },
+        {
+          "_id": "node-7r5IKQcl",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pBLzHfz3"
+        },
+        {
+          "_id": "node-72ub9nLj",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tVvovXke"
+        },
+        {
+          "_id": "node-W0T0z7et",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GOhHGm5X"
+        },
+        {
+          "_id": "node-kKpK12yR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-wwU90P0j"
+        },
+        {
+          "_id": "node-5IvyWViY",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pgjqmlMj"
+        },
+        {
+          "_id": "node-SUfGVwdg",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WWPel8XO"
+        },
+        {
+          "_id": "node-Bo1evMXN",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-FDWKWLCR"
+        },
+        {
+          "_id": "node-9MzXubOr",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-74KPONu3"
+        },
+        {
+          "_id": "node-YCFowJ8y",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-OujCeECO"
+        },
+        {
+          "_id": "node-BlRLQyfX",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tYrLdwGe"
+        },
+        {
+          "_id": "node-NsZpTefr",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tDCcdx1s"
+        },
+        {
+          "_id": "node-jyTYOjVy",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-eP32fNMG"
+        },
+        {
+          "_id": "node-uxgfa8tC",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-yDLJ9YV5"
+        },
+        {
+          "_id": "node-xWrgiflB",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cC6ZKPmu"
+        },
+        {
+          "_id": "node-CJJGAgbf",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-MEGj9dCg"
+        },
+        {
+          "_id": "node-wJfMMYu3",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Z51vTfGP"
+        },
+        {
+          "_id": "node-yasAyXfU",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-lcpTCCHH"
+        },
+        {
+          "_id": "node-5J5pKHkR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Nkxx6syA"
+        },
+        {
+          "_id": "node-ykirtrFj",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-XvRMdYOP"
+        },
+        {
+          "_id": "node-ekBrAtEY",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vevgJRys"
+        },
+        {
+          "_id": "node-exq8pUOF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qU2Q96M3"
+        },
+        {
+          "_id": "node-MNmDgita",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jvfLQj6w"
+        },
+        {
+          "_id": "node-8zv1NyZ3",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-t9PSQziM"
+        },
+        {
+          "_id": "node-vCvB003P",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-T8ftJyPY"
+        },
+        {
+          "_id": "node-MituM8Sm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-v0iQS18V"
+        },
+        {
+          "_id": "node-Eul9z9us",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-R6HfPQBG"
+        },
+        {
+          "_id": "node-VSOF9KYp",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xbxtl8nv"
+        },
+        {
+          "_id": "node-uyr0Yzxh",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8XFmoije"
+        },
+        {
+          "_id": "node-7KmLIlRX",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-s2YgGXI1"
+        },
+        {
+          "_id": "node-Jb8UD8Tn",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-V4HcQv4X"
+        },
+        {
+          "_id": "node-CZs1Se02",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-NiMyjkl1"
+        },
+        {
+          "_id": "node-YYARFiOt",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-SXNZ5kUC"
+        },
+        {
+          "_id": "node-pqQjTBYy",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cAxRUpCN"
+        },
+        {
+          "_id": "node-eCMELzIG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sWVYCoIp"
+        },
+        {
+          "_id": "node-763SAIcY",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-t9ZYE51m"
+        },
+        {
+          "_id": "node-9xS5ZIMO",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xR8KCDXs"
+        },
+        {
+          "_id": "node-6fgXpQQw",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-XyGHA9k0"
+        },
+        {
+          "_id": "node-kPNcKPRP",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-mZMi3qdP"
+        },
+        {
+          "_id": "node-z9Wv9YBg",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-E3xJ7gT2"
+        },
+        {
+          "_id": "node-agqoGVHJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-H2hsfWkr"
+        },
+        {
+          "_id": "node-LSKoCxzD",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-C5Gj1Bf8"
+        },
+        {
+          "_id": "node-XRLSGjwb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-6o0C4w7b"
+        },
+        {
+          "_id": "node-EgsA69fh",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-AdzGxpyf"
+        },
+        {
+          "_id": "node-18UjwtvD",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xobu7g1T"
+        },
+        {
+          "_id": "node-YnHEwEgC",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PvYjics6"
+        },
+        {
+          "_id": "node-USCuetcZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-1ES1iWTE"
+        },
+        {
+          "_id": "node-Thb2vPgR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CNa5fbqn"
+        },
+        {
+          "_id": "node-Zk7VpHlJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-1jJ8UMHB"
+        },
+        {
+          "_id": "node-kvJB9DoZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-hXspthdp"
+        },
+        {
+          "_id": "node-zOllOQBz",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-AOYNDeh1"
+        },
+        {
+          "_id": "node-bVN4mCLB",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-5FMIbOGK"
+        },
+        {
+          "_id": "node-yaTnnrWT",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pTjsBaNw"
+        },
+        {
+          "_id": "node-ZYeKgZ3I",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pKAlQQfH"
+        },
+        {
+          "_id": "node-lxumDhqQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xe9HIGYG"
+        },
+        {
+          "_id": "node-3FH9OuMy",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Jby3EcOy"
+        },
+        {
+          "_id": "node-NzLhww2D",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xqVbwYew"
+        },
+        {
+          "_id": "node-Nl0RTZt6",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pUQOgXLV"
+        },
+        {
+          "_id": "node-NLfRiuhp",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WvicwIv0"
+        },
+        {
+          "_id": "node-thlxSjGy",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Pl1XRDSE"
+        },
+        {
+          "_id": "node-AMiKyBlF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-OlZieTX8"
+        },
+        {
+          "_id": "node-OIS6P7lJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-DcsmcYm4"
+        },
+        {
+          "_id": "node-kFsilu1C",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cu7tGz0I"
+        },
+        {
+          "_id": "node-Nd3w8aFi",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-EqcWPmsw"
+        },
+        {
+          "_id": "node-m0y9JGPF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3Xd3Pvrh"
+        },
+        {
+          "_id": "node-ARFAT1CF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ZxB4zVC5"
+        },
+        {
+          "_id": "node-kfKbYWos",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-9yvlFSFx"
+        },
+        {
+          "_id": "node-croIskXD",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7ZHrZfUB"
+        },
+        {
+          "_id": "node-KVXXFJGh",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-fBM0lIsu"
+        },
+        {
+          "_id": "node-KhrXI0xI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-gfuQstCM"
+        },
+        {
+          "_id": "node-0WcWUCIn",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-TBkSCwCc"
+        },
+        {
+          "_id": "node-BgV1PWpt",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-U36wNBrO"
+        },
+        {
+          "_id": "node-3cCqw30f",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Y8deQOzx"
+        },
+        {
+          "_id": "node-C3hXZpnZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GZVRk8bj"
+        },
+        {
+          "_id": "node-VLSw3TNO",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-2MRYCcie"
+        },
+        {
+          "_id": "node-BkNiYn0n",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pXPxxy8K"
+        },
+        {
+          "_id": "node-ZdKwIrMI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cMjRC8xx"
+        },
+        {
+          "_id": "node-kuTssKr8",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CWeKiHxz"
+        },
+        {
+          "_id": "node-2G5R0gi9",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-uPrp9hbV"
+        },
+        {
+          "_id": "node-WYA6dr3P",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-lFHy6Jhq"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-iS3ipjTu",
+          "style": {},
+          "connection": "conn-XqTCnNsS"
+        },
+        {
+          "_id": "edge-1pW1RzFj",
+          "style": {},
+          "connection": "conn-6Fmhi2eC"
+        },
+        {
+          "_id": "edge-KOrOAyCe",
+          "style": {},
+          "connection": "conn-l5TCfZR9"
+        },
+        {
+          "_id": "edge-OY4XfzGV",
+          "style": {},
+          "connection": "conn-2uQwTeJI"
+        },
+        {
+          "_id": "edge-rS74xD8F",
+          "style": {},
+          "connection": "conn-s5t2kTT7"
+        },
+        {
+          "_id": "edge-uLa3X2Uf",
+          "style": {},
+          "connection": "conn-SOlYxGoh"
+        },
+        {
+          "_id": "edge-UDOQSw2e",
+          "style": {},
+          "connection": "conn-mYipYFbx"
+        },
+        {
+          "_id": "edge-YIzn9B0n",
+          "style": {},
+          "connection": "conn-JKxDZJiN"
+        },
+        {
+          "_id": "edge-Fru1svJK",
+          "style": {},
+          "connection": "conn-4fetzTUE"
+        },
+        {
+          "_id": "edge-iK2FYv5R",
+          "style": {},
+          "connection": "conn-HAXA0Kei"
+        },
+        {
+          "_id": "edge-WdcgOY1D",
+          "style": {},
+          "connection": "conn-uPeCDRHw"
+        },
+        {
+          "_id": "edge-bh72kCDa",
+          "style": {},
+          "connection": "conn-i41XJOLl"
+        },
+        {
+          "_id": "edge-9BmS6i4P",
+          "style": {},
+          "connection": "conn-X9iBG63d"
+        },
+        {
+          "_id": "edge-tk374rfP",
+          "style": {},
+          "connection": "conn-1hHjtkku"
+        },
+        {
+          "_id": "edge-xqfxQ5Pk",
+          "style": {},
+          "connection": "conn-7Tow88H5"
+        },
+        {
+          "_id": "edge-dzOtUSWo",
+          "style": {},
+          "connection": "conn-s2fqmO9J"
+        },
+        {
+          "_id": "edge-BPfTganE",
+          "style": {},
+          "connection": "conn-riOtNIfG"
+        },
+        {
+          "_id": "edge-eiLoHRCa",
+          "style": {},
+          "connection": "conn-PkL8LjkQ"
+        },
+        {
+          "_id": "edge-aSv0h3BS",
+          "style": {},
+          "connection": "conn-NU5Mv17K"
+        },
+        {
+          "_id": "edge-iEeoyfUZ",
+          "style": {},
+          "connection": "conn-c03bfc8P"
+        },
+        {
+          "_id": "edge-ggux4tiy",
+          "style": {},
+          "connection": "conn-XKqPnXKA"
+        },
+        {
+          "_id": "edge-X0W3iPRj",
+          "style": {},
+          "connection": "conn-NObF4OIs"
+        },
+        {
+          "_id": "edge-eHKaNPkC",
+          "style": {},
+          "connection": "conn-P9tEpZZR"
+        },
+        {
+          "_id": "edge-wUnOVj6A",
+          "style": {},
+          "connection": "conn-ztDeSdkC"
+        },
+        {
+          "_id": "edge-NRC3nf5g",
+          "style": {},
+          "connection": "conn-AEDnvMju"
+        },
+        {
+          "_id": "edge-iWhLUyw9",
+          "style": {},
+          "connection": "conn-3TuU3wzi"
+        },
+        {
+          "_id": "edge-BuYiprPf",
+          "style": {},
+          "connection": "conn-WxGJgupD"
+        },
+        {
+          "_id": "edge-pJMMUMsX",
+          "style": {},
+          "connection": "conn-hrCpjgds"
+        },
+        {
+          "_id": "edge-8Sb22Q4t",
+          "style": {},
+          "connection": "conn-8y3NAp93"
+        },
+        {
+          "_id": "edge-nHMGmVzs",
+          "style": {},
+          "connection": "conn-5k0u7KUu"
+        },
+        {
+          "_id": "edge-PdY5Y9pF",
+          "style": {},
+          "connection": "conn-mWkFGDF4"
+        },
+        {
+          "_id": "edge-yhpFOMeH",
+          "style": {},
+          "connection": "conn-tFbf8zGD"
+        },
+        {
+          "_id": "edge-4ax7uiy3",
+          "style": {},
+          "connection": "conn-9pnLwdds"
+        },
+        {
+          "_id": "edge-1KAxIRlW",
+          "style": {},
+          "connection": "conn-FM41PREs"
+        },
+        {
+          "_id": "edge-E9XebLea",
+          "style": {},
+          "connection": "conn-Ia2gBi4q"
+        },
+        {
+          "_id": "edge-qnc7d8Yz",
+          "style": {},
+          "connection": "conn-UxWzxczd"
+        },
+        {
+          "_id": "edge-GsOTGXAB",
+          "style": {},
+          "connection": "conn-KJmxJsey"
+        },
+        {
+          "_id": "edge-SzfOIINj",
+          "style": {},
+          "connection": "conn-GCWJr0NR"
+        },
+        {
+          "_id": "edge-rftfG6nZ",
+          "style": {},
+          "connection": "conn-NhigzxYv"
+        },
+        {
+          "_id": "edge-jIuzLOW1",
+          "style": {},
+          "connection": "conn-J8xWjmMG"
+        },
+        {
+          "_id": "edge-PRPetSBU",
+          "style": {},
+          "connection": "conn-zGccciTv"
+        },
+        {
+          "_id": "edge-92pdpf7B",
+          "style": {},
+          "connection": "conn-ZEHDjM5G"
+        },
+        {
+          "_id": "edge-hDNMdtQV",
+          "style": {},
+          "connection": "conn-iu7NukzN"
+        },
+        {
+          "_id": "edge-QVlhaTiS",
+          "style": {},
+          "connection": "conn-V1tLvG1G"
+        },
+        {
+          "_id": "edge-akF8wHHY",
+          "style": {},
+          "connection": "conn-IFTKtE0b"
+        },
+        {
+          "_id": "edge-0UqkxiVX",
+          "style": {},
+          "connection": "conn-xvRhALtY"
+        },
+        {
+          "_id": "edge-3rU4hX5b",
+          "style": {},
+          "connection": "conn-5U3SObME"
+        },
+        {
+          "_id": "edge-vZBrHeqT",
+          "style": {},
+          "connection": "conn-q9PYXLKo"
+        },
+        {
+          "_id": "edge-KOeFDGxd",
+          "style": {},
+          "connection": "conn-UdLEkHOU"
+        },
+        {
+          "_id": "edge-F2KkxkqX",
+          "style": {},
+          "connection": "conn-NX1yj0Rp"
+        },
+        {
+          "_id": "edge-g5KRUhoV",
+          "style": {},
+          "connection": "conn-cK8ShmbC"
+        },
+        {
+          "_id": "edge-Gac23apc",
+          "style": {},
+          "connection": "conn-uAjASnAG"
+        },
+        {
+          "_id": "edge-Exy6jl79",
+          "style": {},
+          "connection": "conn-XN6E32VU"
+        },
+        {
+          "_id": "edge-2cJZ6TVP",
+          "style": {},
+          "connection": "conn-dTiHnJuQ"
+        },
+        {
+          "_id": "edge-AoupA6Uu",
+          "style": {},
+          "connection": "conn-EHyu9lD6"
+        },
+        {
+          "_id": "edge-r0eKxhGR",
+          "style": {},
+          "connection": "conn-IvIwRX3U"
+        },
+        {
+          "_id": "edge-5dloZHc9",
+          "style": {},
+          "connection": "conn-RPZSqNEm"
+        },
+        {
+          "_id": "edge-ze4D3sX2",
+          "style": {},
+          "connection": "conn-9prJto8t"
+        },
+        {
+          "_id": "edge-tufJDaxm",
+          "style": {},
+          "connection": "conn-XsTnSTFu"
+        },
+        {
+          "_id": "edge-sKYtVNpD",
+          "style": {},
+          "connection": "conn-EwJ77YUr"
+        },
+        {
+          "_id": "edge-xLFXXmU5",
+          "style": {},
+          "connection": "conn-shKRIy5z"
+        },
+        {
+          "_id": "edge-IWYpja7A",
+          "style": {},
+          "connection": "conn-0w9XZjsc"
+        },
+        {
+          "_id": "edge-boIwO1S4",
+          "style": {},
+          "connection": "conn-s9Tfw7CP"
+        },
+        {
+          "_id": "edge-a8vaWQy2",
+          "style": {},
+          "connection": "conn-qVEnm0Ir"
+        },
+        {
+          "_id": "edge-VUtgnHpA",
+          "style": {},
+          "connection": "conn-7JSrigNV"
+        },
+        {
+          "_id": "edge-F9djTrfc",
+          "style": {},
+          "connection": "conn-LppdQ5Ho"
+        },
+        {
+          "_id": "edge-6o52HAS5",
+          "style": {},
+          "connection": "conn-OodgAvTE"
+        },
+        {
+          "_id": "edge-xDVfLgGi",
+          "style": {},
+          "connection": "conn-gRXia9J7"
+        },
+        {
+          "_id": "edge-O0zeLKdB",
+          "style": {},
+          "connection": "conn-kAP744EE"
+        },
+        {
+          "_id": "edge-Q9ipsq2u",
+          "style": {},
+          "connection": "conn-PmW9susP"
+        },
+        {
+          "_id": "edge-7ZzS1Vuu",
+          "style": {},
+          "connection": "conn-d6XfPKoI"
+        },
+        {
+          "_id": "edge-Croe8miX",
+          "style": {},
+          "connection": "conn-VU27c66l"
+        },
+        {
+          "_id": "edge-XLgjgkCD",
+          "style": {},
+          "connection": "conn-A41l76c1"
+        },
+        {
+          "_id": "edge-uAhIw9Xn",
+          "style": {},
+          "connection": "conn-zYFl7V93"
+        },
+        {
+          "_id": "edge-CtDq2hfk",
+          "style": {},
+          "connection": "conn-7s4catKM"
+        },
+        {
+          "_id": "edge-ZRt0TSMc",
+          "style": {},
+          "connection": "conn-g7vsDPIH"
+        },
+        {
+          "_id": "edge-n12ujfTp",
+          "style": {},
+          "connection": "conn-F48i2GDr"
+        },
+        {
+          "_id": "edge-9wzGdRtq",
+          "style": {},
+          "connection": "conn-mZhvkUDP"
+        },
+        {
+          "_id": "edge-0lb8z2CJ",
+          "style": {},
+          "connection": "conn-qTlaVvYs"
+        },
+        {
+          "_id": "edge-VJpgDgZY",
+          "style": {},
+          "connection": "conn-KRWmlN2O"
+        },
+        {
+          "_id": "edge-ihad1Xoi",
+          "style": {},
+          "connection": "conn-5z0BGufz"
+        },
+        {
+          "_id": "edge-m0zxRO8P",
+          "style": {},
+          "connection": "conn-QgliEu7p"
+        },
+        {
+          "_id": "edge-fLLq60eb",
+          "style": {},
+          "connection": "conn-aqypCWr9"
+        },
+        {
+          "_id": "edge-em5PCZif",
+          "style": {},
+          "connection": "conn-vtLUKaqP"
+        },
+        {
+          "_id": "edge-521Zvhc8",
+          "style": {},
+          "connection": "conn-xSpdQhDt"
+        },
+        {
+          "_id": "edge-Ddk7KB0U",
+          "style": {},
+          "connection": "conn-kzRG754T"
+        },
+        {
+          "_id": "edge-zFbyRBlw",
+          "style": {},
+          "connection": "conn-XtShO68s"
+        },
+        {
+          "_id": "edge-n6lrrC4j",
+          "style": {},
+          "connection": "conn-xNoo9iEj"
+        },
+        {
+          "_id": "edge-cNNNpPsF",
+          "style": {},
+          "connection": "conn-DVMxASJ6"
+        },
+        {
+          "_id": "edge-A4JEdfry",
+          "style": {},
+          "connection": "conn-EWIZQ0nW"
+        },
+        {
+          "_id": "edge-iAmP4ZHp",
+          "style": {},
+          "connection": "conn-pRWM3YfH"
+        }
+      ],
+      "loops": []
+    },
+    {
+      "_id": "map-OZIYbyYT",
+      "name": "谱系 / 演化",
+      "description": "科学理论的传承(橙线=演化, 灰线=提出者)",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-MXR0upt4",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "directed",
+      "elements": [
+        {
+          "_id": "node-wEIYFw6K",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qx9jR7Ee"
+        },
+        {
+          "_id": "node-GuyrlbuM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-JTuyMHsD"
+        },
+        {
+          "_id": "node-ob5ZXrdZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-74KPONu3"
+        },
+        {
+          "_id": "node-EHwXLokg",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KzTOAshz"
+        },
+        {
+          "_id": "node-pQprI0Y6",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CGo8NcUY"
+        },
+        {
+          "_id": "node-VdW8oK2Z",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-FDWKWLCR"
+        },
+        {
+          "_id": "node-yw712llp",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8XFmoije"
+        },
+        {
+          "_id": "node-LuZVSw6L",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Z51vTfGP"
+        },
+        {
+          "_id": "node-bTSw8KKj",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8WB36Ud9"
+        },
+        {
+          "_id": "node-K8m1Z4FI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-JvQhAw3Q"
+        },
+        {
+          "_id": "node-tlFcfdoM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GOhHGm5X"
+        },
+        {
+          "_id": "node-obHEav6N",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tUuX8KMf"
+        },
+        {
+          "_id": "node-mZivTl6Z",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-eECXxGLg"
+        },
+        {
+          "_id": "node-23udbjLT",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jvfLQj6w"
+        },
+        {
+          "_id": "node-6jXh2H3x",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-H2hsfWkr"
+        },
+        {
+          "_id": "node-9exT8QzL",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-FT6Ce5fu"
+        },
+        {
+          "_id": "node-gvtuikU8",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-6o0C4w7b"
+        },
+        {
+          "_id": "node-BYO9FPul",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-BC4oAv0D"
+        },
+        {
+          "_id": "node-T9JS47NY",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-t9ZYE51m"
+        },
+        {
+          "_id": "node-woQL0lyt",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-OujCeECO"
+        },
+        {
+          "_id": "node-USsilUa8",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-f1ffBgVV"
+        },
+        {
+          "_id": "node-S8Kz2X9K",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-CNa5fbqn"
+        },
+        {
+          "_id": "node-clMu6Z9N",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-HnyADvkx"
+        },
+        {
+          "_id": "node-oOKg7Fjv",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-b9ukZ8ND"
+        },
+        {
+          "_id": "node-VepwukO4",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sWVYCoIp"
+        },
+        {
+          "_id": "node-9f0TQOU4",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cAxRUpCN"
+        },
+        {
+          "_id": "node-vCaqnpSe",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xR8KCDXs"
+        },
+        {
+          "_id": "node-wqYgUady",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PP4XJU3n"
+        },
+        {
+          "_id": "node-CUAk4AF4",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ZxB4zVC5"
+        },
+        {
+          "_id": "node-ywIyg1EY",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-NiMyjkl1"
+        },
+        {
+          "_id": "node-3KPWRokC",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jQEo2gw2"
+        },
+        {
+          "_id": "node-eZ2csbuq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-E3xJ7gT2"
+        },
+        {
+          "_id": "node-8gevk4yk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pXPxxy8K"
+        },
+        {
+          "_id": "node-UeJ85fvM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-xZiJdL9J"
+        },
+        {
+          "_id": "node-N5ETbB8P",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-63QHtDP9"
+        },
+        {
+          "_id": "node-kM4Bkdgv",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-MjeirNOL"
+        },
+        {
+          "_id": "node-nmASJU7U",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-MEGj9dCg"
+        },
+        {
+          "_id": "node-IqQstpgd",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bD6e3uKB"
+        },
+        {
+          "_id": "node-zKJ1Fjdx",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-V4HcQv4X"
+        },
+        {
+          "_id": "node-aBfs0QOM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pKAlQQfH"
+        },
+        {
+          "_id": "node-EmgbnkOs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PJbM7Q1S"
+        },
+        {
+          "_id": "node-fE2htYzE",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-mZMi3qdP"
+        },
+        {
+          "_id": "node-F5QqfPIy",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-lcpTCCHH"
+        },
+        {
+          "_id": "node-lx4yxlCc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vwal3jKQ"
+        },
+        {
+          "_id": "node-qCDqo1rK",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-R6HfPQBG"
+        },
+        {
+          "_id": "node-djWSQgfQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-XvRMdYOP"
+        },
+        {
+          "_id": "node-wZIAWLoJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-zAUguBuQ"
+        },
+        {
+          "_id": "node-d1y0HA9I",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-tYrLdwGe"
+        },
+        {
+          "_id": "node-R37EK4pE",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-rblrSWt6"
+        },
+        {
+          "_id": "node-tfz52TcG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bdE2zBRg"
+        },
+        {
+          "_id": "node-K5HZKRNj",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-T8ftJyPY"
+        },
+        {
+          "_id": "node-h8WCl8kn",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GZVRk8bj"
+        },
+        {
+          "_id": "node-ZmicBfRB",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-C5Gj1Bf8"
+        },
+        {
+          "_id": "node-m0Oj1Mqu",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WWPel8XO"
+        },
+        {
+          "_id": "node-6U6ZefyJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-t9PSQziM"
+        },
+        {
+          "_id": "node-zJu2rHD6",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sMtwgKGn"
+        },
+        {
+          "_id": "node-3aYSNLHY",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cC6ZKPmu"
+        },
+        {
+          "_id": "node-AhAjjKLL",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-EqcWPmsw"
+        },
+        {
+          "_id": "node-W98g7gKX",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-2MRYCcie"
+        },
+        {
+          "_id": "node-gYs3I4w4",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-qdiVAHhV"
+        },
+        {
+          "_id": "node-AqyPFKME",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-AdzGxpyf"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-clrzjNMR",
+          "style": {},
+          "connection": "conn-CHTxe6Kh"
+        },
+        {
+          "_id": "edge-Szcz44vS",
+          "style": {},
+          "connection": "conn-d1J5GmKI"
+        },
+        {
+          "_id": "edge-pdVE6r5x",
+          "style": {},
+          "connection": "conn-jku2HChR"
+        },
+        {
+          "_id": "edge-bv0Yttr1",
+          "style": {},
+          "connection": "conn-nTLFf5GC"
+        },
+        {
+          "_id": "edge-F2SRg3oi",
+          "style": {},
+          "connection": "conn-ZdDiGADK"
+        },
+        {
+          "_id": "edge-tVCX0urU",
+          "style": {},
+          "connection": "conn-dJDRZtUb"
+        },
+        {
+          "_id": "edge-AMPfmCn6",
+          "style": {},
+          "connection": "conn-zq0aVnLe"
+        },
+        {
+          "_id": "edge-0AVFWH3x",
+          "style": {},
+          "connection": "conn-cBwSeId7"
+        },
+        {
+          "_id": "edge-0dGYketT",
+          "style": {},
+          "connection": "conn-5e7EcsAl"
+        },
+        {
+          "_id": "edge-GziX2H4K",
+          "style": {},
+          "connection": "conn-XiXPUP9A"
+        },
+        {
+          "_id": "edge-blm41m1d",
+          "style": {},
+          "connection": "conn-x5yC366y"
+        },
+        {
+          "_id": "edge-pcDd6xTm",
+          "style": {},
+          "connection": "conn-yfR9Q3Ii"
+        },
+        {
+          "_id": "edge-rx0DGzO7",
+          "style": {},
+          "connection": "conn-P3whlIzH"
+        },
+        {
+          "_id": "edge-hRbpxFMC",
+          "style": {},
+          "connection": "conn-iUo1aWbt"
+        },
+        {
+          "_id": "edge-l93ELJww",
+          "style": {},
+          "connection": "conn-DRUIBIy0"
+        },
+        {
+          "_id": "edge-k15qV1Sf",
+          "style": {},
+          "connection": "conn-opDwjrm7"
+        },
+        {
+          "_id": "edge-sbydk2KX",
+          "style": {},
+          "connection": "conn-4UWhcZQA"
+        },
+        {
+          "_id": "edge-9n2oPoRn",
+          "style": {},
+          "connection": "conn-NX744bpn"
+        },
+        {
+          "_id": "edge-rPAGb3X9",
+          "style": {},
+          "connection": "conn-egMcCMRT"
+        },
+        {
+          "_id": "edge-XRaE6iPl",
+          "style": {},
+          "connection": "conn-3dpVczCo"
+        },
+        {
+          "_id": "edge-MZaoqMZ8",
+          "style": {},
+          "connection": "conn-InW3XdiG"
+        },
+        {
+          "_id": "edge-tT9TPrB5",
+          "style": {},
+          "connection": "conn-XqTCnNsS"
+        },
+        {
+          "_id": "edge-y2wDqnDt",
+          "style": {},
+          "connection": "conn-6Fmhi2eC"
+        },
+        {
+          "_id": "edge-RH0NzLga",
+          "style": {},
+          "connection": "conn-l5TCfZR9"
+        },
+        {
+          "_id": "edge-GQ911xJP",
+          "style": {},
+          "connection": "conn-s5t2kTT7"
+        },
+        {
+          "_id": "edge-MMstRgEe",
+          "style": {},
+          "connection": "conn-JKxDZJiN"
+        },
+        {
+          "_id": "edge-vrOu3rqP",
+          "style": {},
+          "connection": "conn-4fetzTUE"
+        },
+        {
+          "_id": "edge-T85PtmjH",
+          "style": {},
+          "connection": "conn-HAXA0Kei"
+        },
+        {
+          "_id": "edge-Wp5dZ2ZZ",
+          "style": {},
+          "connection": "conn-i41XJOLl"
+        },
+        {
+          "_id": "edge-MzQuRiUb",
+          "style": {},
+          "connection": "conn-1hHjtkku"
+        },
+        {
+          "_id": "edge-PFsq6Azy",
+          "style": {},
+          "connection": "conn-s2fqmO9J"
+        },
+        {
+          "_id": "edge-VcLTK0mv",
+          "style": {},
+          "connection": "conn-riOtNIfG"
+        },
+        {
+          "_id": "edge-UToRIOYE",
+          "style": {},
+          "connection": "conn-PkL8LjkQ"
+        },
+        {
+          "_id": "edge-68QwGt2k",
+          "style": {},
+          "connection": "conn-NU5Mv17K"
+        },
+        {
+          "_id": "edge-1Q4JlsgE",
+          "style": {},
+          "connection": "conn-c03bfc8P"
+        },
+        {
+          "_id": "edge-iVqUZJW6",
+          "style": {},
+          "connection": "conn-XKqPnXKA"
+        },
+        {
+          "_id": "edge-l8R5vPfo",
+          "style": {},
+          "connection": "conn-P9tEpZZR"
+        },
+        {
+          "_id": "edge-woV3tAY4",
+          "style": {},
+          "connection": "conn-ztDeSdkC"
+        },
+        {
+          "_id": "edge-vxqLsD2h",
+          "style": {},
+          "connection": "conn-AEDnvMju"
+        },
+        {
+          "_id": "edge-Ed3OLL8N",
+          "style": {},
+          "connection": "conn-3TuU3wzi"
+        },
+        {
+          "_id": "edge-eE4mGh3R",
+          "style": {},
+          "connection": "conn-WxGJgupD"
+        },
+        {
+          "_id": "edge-yHtAd32j",
+          "style": {},
+          "connection": "conn-hrCpjgds"
+        },
+        {
+          "_id": "edge-imvAK56D",
+          "style": {},
+          "connection": "conn-8y3NAp93"
+        },
+        {
+          "_id": "edge-ju3TlXfF",
+          "style": {},
+          "connection": "conn-5k0u7KUu"
+        },
+        {
+          "_id": "edge-vOluOdaC",
+          "style": {},
+          "connection": "conn-mWkFGDF4"
+        },
+        {
+          "_id": "edge-rnWXkKWk",
+          "style": {},
+          "connection": "conn-9pnLwdds"
+        },
+        {
+          "_id": "edge-FYWXfiNB",
+          "style": {},
+          "connection": "conn-FM41PREs"
+        },
+        {
+          "_id": "edge-OBzB9Eya",
+          "style": {},
+          "connection": "conn-Ia2gBi4q"
+        },
+        {
+          "_id": "edge-cImUx8a5",
+          "style": {},
+          "connection": "conn-UxWzxczd"
+        },
+        {
+          "_id": "edge-uW1HmbRa",
+          "style": {},
+          "connection": "conn-KJmxJsey"
+        },
+        {
+          "_id": "edge-OUpoS4wt",
+          "style": {},
+          "connection": "conn-GCWJr0NR"
+        },
+        {
+          "_id": "edge-igyGLtke",
+          "style": {},
+          "connection": "conn-NhigzxYv"
+        },
+        {
+          "_id": "edge-0ct8sDUH",
+          "style": {},
+          "connection": "conn-J8xWjmMG"
+        },
+        {
+          "_id": "edge-MHvB4Riv",
+          "style": {},
+          "connection": "conn-IFTKtE0b"
+        },
+        {
+          "_id": "edge-5FwWmk86",
+          "style": {},
+          "connection": "conn-xvRhALtY"
+        },
+        {
+          "_id": "edge-6ZzbooUi",
+          "style": {},
+          "connection": "conn-q9PYXLKo"
+        },
+        {
+          "_id": "edge-nUbLGkhx",
+          "style": {},
+          "connection": "conn-uAjASnAG"
+        },
+        {
+          "_id": "edge-TPYcy4Oq",
+          "style": {},
+          "connection": "conn-dTiHnJuQ"
+        },
+        {
+          "_id": "edge-XINdMdQg",
+          "style": {},
+          "connection": "conn-gRXia9J7"
+        },
+        {
+          "_id": "edge-P1bdShAC",
+          "style": {},
+          "connection": "conn-kAP744EE"
+        },
+        {
+          "_id": "edge-yhJqESjn",
+          "style": {},
+          "connection": "conn-PmW9susP"
+        },
+        {
+          "_id": "edge-SROatAQg",
+          "style": {},
+          "connection": "conn-VU27c66l"
+        },
+        {
+          "_id": "edge-QHrNMSiA",
+          "style": {},
+          "connection": "conn-F48i2GDr"
+        },
+        {
+          "_id": "edge-15gGUNhs",
+          "style": {},
+          "connection": "conn-5z0BGufz"
+        },
+        {
+          "_id": "edge-hYgFmMmX",
+          "style": {},
+          "connection": "conn-QgliEu7p"
+        },
+        {
+          "_id": "edge-q1HmwTAs",
+          "style": {},
+          "connection": "conn-aqypCWr9"
+        },
+        {
+          "_id": "edge-kcJF6nS7",
+          "style": {},
+          "connection": "conn-vtLUKaqP"
+        },
+        {
+          "_id": "edge-EvpaaQf6",
+          "style": {},
+          "connection": "conn-xSpdQhDt"
+        },
+        {
+          "_id": "edge-h1KQFj8f",
+          "style": {},
+          "connection": "conn-pRWM3YfH"
+        }
+      ],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-so06UKuK",
+      "name": "总览",
+      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: 4;\n  border-color: #9aa4b2;\n  font-size: 13;\n}\n\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; image-fit: contain; }\nelement[\"element type\"=\"Tag\"]     { border-color: #f4a261; }\n\nconnection { color: #b0b7c0; width: 1.5; arrow-size: 6; }\n"
+    },
+    {
+      "_id": "pers-TIMELINE",
+      "name": "时间轴",
+      "style": "@settings {\n  template: stakeholder;\n  colorBy: \"born\";\n}\n\nelement {\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  border-width: 3;\n  image-fit: contain;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { image-fit: cover; }\nelement[\"element type\"=\"Project\"] { opacity: 0.12; }\n\nconnection { color: #c7ccd4; width: 1.2; }\n"
+    },
+    {
+      "_id": "pers-MXR0upt4",
+      "name": "谱系",
+      "style": "@settings {\n  template: stakeholder;\n}\n\nelement {\n  color: #ffffff;\n  size: scale(\"influence\", 20, 100);\n  min-size: 20;\n  image-fit: contain;\n  border-width: 3;\n  border-color: #9aa4b2;\n  font-size: 13;\n}\nelement[\"element type\"=\"Person\"]  { border-color: #ff6b6b; image-fit: cover; }\nelement[\"element type\"=\"Project\"] { border-color: #4ecdc4; }\n\nconnection { color: #d2d7de; width: 1.2; arrow-size: 5; }\nconnection[\"connection type\"=\"evolution\"] { color: #e76f51; width: 3; arrow-size: 11; }\n"
+    }
+  ]
+}
