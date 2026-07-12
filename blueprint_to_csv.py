@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """把 Kumu blueprint JSON 转成可导入 Google Sheets 的 Elements / Connections CSV。
 
-用法: python3 blueprint_to_csv.py scientists.json computer_scientists.json
+用法: python3 blueprint_to_csv.py raw/scientists.json raw/computer_scientists.json
 输出: sheets/<basename>_elements.csv, sheets/<basename>_connections.csv
 
 Kumu 表格导入约定:
@@ -63,7 +63,7 @@ def convert(path: Path, outdir: Path):
 def main():
     outdir = Path("sheets")
     outdir.mkdir(exist_ok=True)
-    for arg in sys.argv[1:] or ["scientists.json", "computer_scientists.json"]:
+    for arg in sys.argv[1:] or ["raw/scientists.json", "raw/computer_scientists.json"]:
         path = Path(arg)
         n_elem, n_conn = convert(path, outdir)
         print(f"{path.name}: {n_elem} elements, {n_conn} connections -> "

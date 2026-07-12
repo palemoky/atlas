@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Great Scientists",
-  "description": "",
+  "description": "# Great Scientists\n\n用 [Kumu](https://kumu.io) 绘制对科学与人类文明发展有巨大贡献的科学家关系图，涵盖物理学、数学、天文学、生物学、化学等领域。节点头像大小随 `influence`（影响力，0–10）线性缩放，影响力越大头像越大。\n\n查看「总览」视图获取全局概览，或切换到「时间轴」「谱系」视图按时间脉络与师承/影响关系探索。",
   "proxyImages": true,
   "defaultMap": "map-jQHoAtrd",
   "defaultPerspective": "pers-so06UKuK",

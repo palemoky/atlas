@@ -4,12 +4,12 @@
 
 ## 文件说明
 
-| 文件                       | 说明                                                                |
-| -------------------------- | ------------------------------------------------------------------- |
-| `scientists.json`          | 「Great Scientists」项目的 Kumu blueprint（元素、连接、地图、视图） |
-| `computer_scientists.json` | 「Computer Scientist」项目的 Kumu blueprint                         |
-| `blueprint_to_csv.py`      | 把 blueprint JSON 转成可导入 Google Sheets 的 CSV                   |
-| `sheets/`                  | 脚本输出目录（`*_elements.csv` / `*_connections.csv`）              |
+| 文件                            | 说明                                                                |
+| ------------------------------- | ------------------------------------------------------------------- |
+| `raw/scientists.json`           | 「Great Scientists」项目的 Kumu blueprint（元素、连接、地图、视图） |
+| `raw/computer_scientists.json`  | 「Computer Scientist」项目的 Kumu blueprint                         |
+| `blueprint_to_csv.py`           | 把 blueprint JSON 转成可导入 Google Sheets 的 CSV                   |
+| `sheets/`                       | 脚本输出目录（`*_elements.csv` / `*_connections.csv`）              |
 
 ## 头像随影响力缩放
 
@@ -58,11 +58,11 @@ JSON (git) → blueprint_to_csv.py → Google Sheet (Elements/Connections 两个
 ## 脚本用法
 
 ```bash
-# 转换默认的两个文件（scientists.json、computer_scientists.json）
+# 转换默认的两个文件（raw/scientists.json、raw/computer_scientists.json）
 python3 blueprint_to_csv.py
 
 # 或指定文件
-python3 blueprint_to_csv.py scientists.json
+python3 blueprint_to_csv.py raw/scientists.json
 ```
 
 输出到 `sheets/<名称>_elements.csv` 与 `sheets/<名称>_connections.csv`。导入 Google Sheets 时分别放到名为 **Elements** 和 **Connections** 的两个 tab。

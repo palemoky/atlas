@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Computer Scientist",
-  "description": "",
+  "description": "# Computer Scientist\n\n用 [Kumu](https://kumu.io) 绘制对计算机科学发展有巨大贡献的人物与代表性作品的关系图。节点头像大小随 `influence`（影响力，0–10）线性缩放，影响力越大头像越大。\n\n查看「Overview」视图获取全局概览，或切换到「Focus」「People Only」「Timeline」「Lineage」视图分别聚焦重点人物、仅人物关系、时间脉络与师承演化。",
   "proxyImages": true,
   "defaultMap": "map-eYSZclUU",
   "defaultPerspective": "pers-MmbVBt5Y",
