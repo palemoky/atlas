@@ -9,6 +9,7 @@
 | `raw/scientists.json`           | 「Great Scientists」项目的 Kumu blueprint（元素、连接、地图、视图） |
 | `raw/computer_scientists.json`  | 「Computer Scientist」项目的 Kumu blueprint                         |
 | `blueprint_to_csv.py`           | 把 blueprint JSON 转成可导入 Google Sheets 的 CSV                   |
+| `assign_positions.py`           | 给 blueprint JSON 里 position 为 null 的节点算力导向布局坐标并写回  |
 | `sheets/`                       | 脚本输出目录（`*_elements.csv` / `*_connections.csv`）              |
 
 ## 头像随影响力缩放
@@ -29,6 +30,18 @@ element {
 导入 Kumu 后无需任何调整即可看到效果。想调整对比度，改 `scale()` 的第二、三个参数即可（等价写法：`@settings { element-size: scale("influence", 20, 100); }`）。
 
 打分约定：`influence` 在图内使用 **4.0–9.9** 的大跨度（两个项目一致），`scale()` 按图内最小/最大值做线性映射，分数拉开差距头像大小才有区分度。新增条目时参照图内已有条目相对打分即可，不追求跨图可比。
+
+## 节点坐标（避免导入后一直提示保存）
+
+blueprint JSON 里节点的 `position` 若为 `null`，Kumu 导入后会临时跑一次自动布局把节点摆出来，但这个布局不会写回底层数据，导致画布状态和已保存状态不一致——只要切换 view（比如切到 Overview）就会提示"未保存的更改"。
+
+新增节点、或需要重新排布时，跑一次：
+
+```bash
+python3 assign_positions.py
+```
+
+会给两个 blueprint 里所有 `position` 为 `null` 的节点算一套力导向布局坐标并写回 JSON（已有坐标或 `pinned: true` 的节点不受影响），重新导入 Kumu 后坐标就是确定的，不会再触发保存提示。
 
 ## 数据同步方式调查结论（2026-07）
 
