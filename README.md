@@ -1,6 +1,8 @@
 # Atlas
 
-用 [Kumu](https://kumu.io) 绘制对计算机与人类发展有巨大贡献的人物/作品关系图。影响力（`influence`，0–10）越大，头像越大。
+绘制对计算机与人类发展有巨大贡献的人物/作品关系图。影响力（`influence`，0–10）越大，头像越大。
+
+数据以 `raw/*.json`（Kumu blueprint 格式）为唯一数据源，`web/` 是自建的交互式力导向图页面，托管在 Cloudflare Workers：**https://atlas.palemoky.workers.dev**
 
 ## 文件说明
 
@@ -8,9 +10,24 @@
 | ------------------------------- | ------------------------------------------------------------------- |
 | `raw/scientists.json`           | 「Great Scientists」项目的 Kumu blueprint（元素、连接、地图、视图） |
 | `raw/computer_scientists.json`  | 「Computer Scientist」项目的 Kumu blueprint                         |
-| `blueprint_to_csv.py`           | 把 blueprint JSON 转成可导入 Google Sheets 的 CSV                   |
+| `web/`                          | 自建交互式力导向图页面（Vite + TS + d3-force），部署到 Cloudflare   |
+| `blueprint_to_csv.py`           | 把 blueprint JSON 转成可导入 Google Sheets 的 CSV（Kumu 工作流遗留）|
 | `assign_positions.py`           | 给 blueprint JSON 里 position 为 null 的节点算力导向布局坐标并写回  |
 | `sheets/`                       | 脚本输出目录（`*_elements.csv` / `*_connections.csv`）              |
+
+## 自建网页（`web/`）
+
+不再依赖 Kumu 的导入/Sheet 同步（见下方「数据同步方式调查结论」），直接读取 `raw/*.json` 渲染力导向图：搜索、按 Element Type 筛选、点击节点看详情（描述、标签、生卒年），头像大小按 `influence` 缩放。
+
+```bash
+cd web
+npm install
+npm run dev      # 本地开发，自动把 ../raw/*.json 同步到 public/data/
+npm run build    # 生成 dist/，构建前也会自动同步一次 raw 数据
+npx wrangler deploy   # 部署到 Cloudflare Workers（atlas.palemoky.workers.dev）
+```
+
+`web/sync-data.mjs` 在每次 `dev`/`build` 前把 `raw/*.json` 拷贝到 `web/public/data/`，改完 `raw/` 下的 JSON 后跑一次 `npm run dev`（本地）或 `npm run build && npx wrangler deploy`（线上）即可看到更新——数据源仍然只有 `raw/*.json`，`public/data/` 是生成产物，不进 git。
 
 ## 头像随影响力缩放
 

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <h1 class="brand">Atlas</h1>
+        <div class="dataset-switch" id="dataset-switch"></div>
+        <input id="search" class="search" type="search" placeholder="搜索人物 / 作品…" />
+        <select id="type-filter" class="type-filter">
+          <option value="">全部类型</option>
+        </select>
+      </header>
+      <main class="main">
+        <div id="graph" class="graph"></div>
+        <aside id="detail" class="detail hidden"></aside>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
